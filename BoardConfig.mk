@@ -146,5 +146,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # SPL
 VENDOR_SECURITY_PATCH := 2022-02-05
 
+# HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
+
 # VNDK
 BOARD_VNDK_VERSION := current
