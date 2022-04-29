@@ -37,6 +37,9 @@ TARGET_SCREEN_DENSITY := 480
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+    WifiOverlay
+
 # Recovery
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/init.recovery.mt6785.rc:recovery/root/init.recovery.mt6785.rc
