@@ -150,6 +150,12 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2-resources.vendor \
     android.hardware.graphics.composer@2.2.vendor
 
+# Health
+PRODUCT_PACKAGES += \
+   android.hardware.health@1.0.vendor \
+   android.hardware.health@2.0.vendor \
+   android.hardware.health@2.1.vendor
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
