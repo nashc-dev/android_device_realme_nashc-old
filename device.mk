@@ -285,6 +285,15 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor \
     libtextclassifier_hash.vendor
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0.vendor \
+    android.hardware.usb@1.1.vendor \
+    android.hardware.usb@1.2.vendor \
+    android.hardware.usb@1.3.vendor \
+    android.hardware.usb.gadget@1.0.vendor \
+    android.hardware.usb.gadget@1.1.vendor
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd@1.0.vendor \
