@@ -212,6 +212,14 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0.vendor \
     android.hardware.thermal@2.0.vendor
 
+# Neural Networks
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.0.vendor \
+    android.hardware.neuralnetworks@1.1.vendor \
+    android.hardware.neuralnetworks@1.2.vendor \
+    android.hardware.neuralnetworks@1.3.vendor \
+    libtextclassifier_hash.vendor
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd@1.0.vendor \
