@@ -204,6 +204,16 @@ PRODUCT_PACKAGES += \
    android.hardware.health@2.0.vendor \
    android.hardware.health@2.1.vendor
 
+# GNSS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss.measurement_corrections@1.0.vendor \
+    android.hardware.gnss.measurement_corrections@1.1.vendor \
+    android.hardware.gnss.visibility_control@1.0.vendor \
+    android.hardware.gnss@1.0.vendor \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@2.0.vendor \
+    android.hardware.gnss@2.1.vendor
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail_vendor
