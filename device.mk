@@ -114,16 +114,22 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    audio.bluetooth.default \
+    libaudiofoundation.vendor \
+    libbluetooth_audio_session \
+    libalsautils \
+    libnbaio_mono \
+    libtinycompress \
+    libdynproc \
+    libhapticgenerator \
+    android.hardware.audio.effect@7.0-impl \
+    android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.common-util.vendor \
     android.hardware.audio.common@5.0.vendor \
-    android.hardware.audio.common@6.0-util.vendor \
     android.hardware.audio.common@6.0.vendor \
-    android.hardware.audio.common@7.0-util.vendor \
+    android.hardware.audio.common@6.0-util.vendor \
     android.hardware.audio.common@7.0.vendor \
-    android.hardware.audio.effect@6.0-util.vendor \
-    android.hardware.audio.effect@6.0.vendor \
-    android.hardware.audio.effect@7.0-util.vendor \
-    android.hardware.audio.effect@7.0.vendor \
+    android.hardware.audio.common@7.0-util.vendor \
     android.hardware.audio@6.0.vendor \
     android.hardware.audio@6.0-util.vendor \
     android.hardware.audio@7.0-util.vendor \
@@ -154,8 +160,8 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio@2.0.vendor \
-    android.hardware.bluetooth.audio@2.1.vendor \
+    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth@1.1.vendor
 
@@ -178,31 +184,31 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor \
     android.hardware.camera.provider@2.4.vendor \
     android.hardware.camera.provider@2.5.vendor \
-    android.hardware.camera.provider@2.6.vendor
+    android.hardware.camera.provider@2.6.vendor \
+    libcamera2ndk_vendor
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.0.vendor \
-    android.hardware.drm@1.1.vendor \
-    android.hardware.drm@1.2.vendor \
-    android.hardware.drm@1.3.vendor \
-    android.hardware.drm@1.4.vendor
+    android.hardware.drm@1.4-service.clearkey \
+    libdrm.vendor \
+    libdrmclearkeyplugin.vendor \
+    libmockdrmcryptoplugin.vendor \
+    libclearkeycasplugin.vendor
 
 # Display
 PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.2-service \
     android.hardware.graphics.allocator@2.0.vendor \
     android.hardware.graphics.allocator@3.0.vendor \
     android.hardware.graphics.allocator@4.0.vendor \
-    android.hardware.graphics.composer@2.1-resources.vendor \
-    android.hardware.graphics.composer@2.1.vendor \
-    android.hardware.graphics.composer@2.2-resources.vendor \
-    android.hardware.graphics.composer@2.2.vendor
+    android.hardware.memtrack@1.0-service \
+    android.hardware.memtrack@1.0-impl \
+    libhwc2onfbadapter.vendor
 
 # Health
 PRODUCT_PACKAGES += \
-   android.hardware.health@1.0.vendor \
-   android.hardware.health@2.0.vendor \
-   android.hardware.health@2.1.vendor
+   android.hardware.health@2.1-service \
+   android.hardware.health@2.1-impl
 
 # GNSS
 PRODUCT_PACKAGES += \
@@ -214,9 +220,21 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0.vendor \
     android.hardware.gnss@2.1.vendor
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0-impl
+
 # Media
 PRODUCT_PACKAGES += \
-    libavservices_minijail_vendor
+    libcodec2_hidl@1.1.vendor \
+    libcodec2_hidl@1.2.vendor \
+    libcodec2_hidl_plugin.vendor \
+    libavservices_minijail_vendor \
+    libstagefright_softomx_plugin.vendor \
+    libsfplugin_ccodec_utils.vendor \
+    libcodec2_soft_common.vendor \
+    android.hardware.media.omx@1.0-service
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
@@ -239,9 +257,7 @@ PRODUCT_COPY_FILES += \
 
 # Soundtrigger
 PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.1.vendor \
-    android.hardware.soundtrigger@2.2.vendor \
-    android.hardware.soundtrigger@2.3.vendor
+    android.hardware.soundtrigger@2.3-impl
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -256,7 +272,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    android.hardware.keymaster-V3-ndk_platform.vendor \
    android.hardware.keymaster@3.0.vendor \
-   android.hardware.keymaster@4.0.vendor
+   android.hardware.keymaster@4.0.vendor \
+   libkeymaster4.vendor:64 \
+   libkeymaster4support.vendor:64 \
+   libsoft_attestation_cert.vendor:64 \
+   libkeystore-wifi-hidl \
+   libkeystore-engine-wifi-hidl
 
 # Radio
 PRODUCT_PACKAGES += \
@@ -271,6 +292,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.4.vendor \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio@1.6.vendor
+
+# RenderScript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
 
 # Power
 PRODUCT_PACKAGES += \
@@ -291,7 +316,7 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@1.0.vendor \
+    android.hardware.thermal@1.0-impl \
     android.hardware.thermal@2.0.vendor
 
 # Neural Networks
@@ -313,6 +338,12 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service-lazy \
+    android.hardware.wifi@1.1.vendor \
+    android.hardware.wifi@1.2.vendor \
+    android.hardware.wifi@1.3.vendor \
+    android.hardware.wifi@1.4.vendor \
+    android.hardware.wifi@1.5.vendor \
     android.hardware.wifi.hostapd@1.0.vendor \
     android.hardware.wifi.hostapd@1.1.vendor \
     android.hardware.wifi.hostapd@1.2.vendor \
@@ -321,13 +352,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.supplicant@1.1.vendor \
     android.hardware.wifi.supplicant@1.2.vendor \
     android.hardware.wifi.supplicant@1.3.vendor \
-    android.hardware.wifi.supplicant@1.4.vendor \
-    android.hardware.wifi@1.0.vendor \
-    android.hardware.wifi@1.1.vendor \
-    android.hardware.wifi@1.2.vendor \
-    android.hardware.wifi@1.3.vendor \
-    android.hardware.wifi@1.4.vendor \
-    android.hardware.wifi@1.5.vendor
+    android.hardware.wifi.supplicant@1.4.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
