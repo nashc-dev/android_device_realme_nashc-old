@@ -3184,8 +3184,8 @@ vendor/lib64/hw/gps.default.so
 vendor/lib/hw/gps.default.so
 vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
-vendor/etc/vintf/manifest/gnss@2.1-service.xml
-vendor/etc/vintf/manifest/gnss-default.xml
+vendor/etc/vintf/manifest/gnss@2.1-service.xml:vendor/etc/vintf/manifest/gnss@2.1-service-mtk.xml
+vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss-mtk.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CT.xml
