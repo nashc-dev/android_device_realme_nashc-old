@@ -58,7 +58,6 @@ ro.vendor.pq.mtk_backlight_smooth_support=1
 ro.vendor.pq.mtk_ultra_dimming_support=0
 ro.vendor.pq.mtk_blulight_def_support=1
 ro.hardware.egl=meow
-debug.renderengine.backend=skiagl
 
 # SurfaceFlinger
 ro.surface_flinger.primary_display_orientation=ORIENTATION_0
