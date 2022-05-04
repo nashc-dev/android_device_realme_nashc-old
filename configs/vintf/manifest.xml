@@ -223,6 +223,18 @@
         <fqname>@2.0::ISensors/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>android.hardware.secure_element</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>ISecureElement</name>
+            <instance>SIM1</instance>
+            <instance>SIM2</instance>
+        </interface>
+        <fqname>@1.2::ISecureElement/SIM1</fqname>
+        <fqname>@1.2::ISecureElement/SIM2</fqname>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.soundtrigger</name>
         <transport>hwbinder</transport>
         <version>2.3</version>
@@ -552,6 +564,22 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.13::IPictureQuality/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.radio_op</name>
+        <transport>hwbinder</transport>
+        <version>3.0</version>
+        <interface>
+            <name>IRadioOp</name>
+            <instance>OpImsRILd1</instance>
+            <instance>OpImsRILd2</instance>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+        <fqname>@3.0::IRadioOp/OpImsRILd1</fqname>
+        <fqname>@3.0::IRadioOp/OpImsRILd2</fqname>
+        <fqname>@3.0::IRadioOp/slot1</fqname>
+        <fqname>@3.0::IRadioOp/slot2</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.mediatek.hardware.videotelephony</name>

@@ -230,6 +230,17 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.mediatek.hardware.radio_op</name>
+        <version>3.0</version>
+        <interface>
+            <name>IRadioOp</name>
+            <instance>OpImsRILd1</instance>
+            <instance>OpImsRILd2</instance>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.netdagent</name>
         <version>1.0</version>
         <interface>
