@@ -146,6 +146,10 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # SPL
 VENDOR_SECURITY_PATCH := 2022-02-05
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_nashc
+TARGET_RECOVERY_DEVICE_MODULES := libinit_nashc
+
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
