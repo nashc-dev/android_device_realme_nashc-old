@@ -146,6 +146,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # SPL
 VENDOR_SECURITY_PATCH := 2022-02-05
 
+# FOD
+TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/oplus:libudfps_extension.oplus
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_nashc
 TARGET_RECOVERY_DEVICE_MODULES := libinit_nashc
