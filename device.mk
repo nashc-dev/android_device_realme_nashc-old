@@ -367,6 +367,7 @@ PRODUCT_COPY_FILES += \
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/oplus
 
 $(call inherit-product-if-exists, vendor/realme/nashc/nashc-vendor.mk)
