@@ -1124,4 +1124,5 @@ service osi /system/bin/osi
     oneshot
     #seclabel u:r:osi:s0
 
-
+on property:ro.boot.prjname=*
+    setprop ro.separate.soft ${ro.boot.prjname}
