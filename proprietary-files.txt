@@ -3401,6 +3401,44 @@ odm/etc/bin/gauge_authenticate
 vendor/etc/init/fuelgauged_init.rc
 
 # IMS
+bin/vtservice
+etc/init/init.vtservice.rc
+lib64/libcomutils.so
+lib64/libimsma.so
+lib64/libimsma_adapt.so
+lib64/libimsma_rtp.so
+lib64/libimsma_socketwrapper.so
+lib64/libmtk_vt_service.so
+lib64/libmtk_vt_wrapper.so
+lib/libmtk_vt_wrapper.so
+lib64/libmtkavenhancements.so
+lib/libmtkavenhancements.so
+lib64/libmtkperf_client.so
+lib/libmtkperf_client.so
+lib64/libsignal.so
+lib64/libsink.so
+lib64/libsource.so
+lib64/libvcodec_cap.so
+lib/libvcodec_cap.so
+lib64/libvcodec_capenc.so
+lib/libvcodec_cap.so
+lib64/libvt_avsync.so
+lib64/libmtk_vt_wrapper.so
+lib64/libvsim-adaptor-client.so
+lib/libvsim-adaptor-client.so
+-framework/mediatek-common.jar
+-framework/mediatek-framework.jar
+framework/mediatek-gwsd.jar
+framework/mediatek-gwsdv2.jar
+-framework/mediatek-ims-base.jar
+-framework/mediatek-ims-common.jar
+framework/mediatek-ims-extension-plugin.jar
+framework/mediatek-ims-legacy.jar
+-framework/mediatek-telecom-common.jar
+-framework/mediatek-telephony-base.jar
+-framework/mediatek-telephony-common.jar
+framework/mediatek-wfo-legacy.jar
+-priv-app/ImsService/ImsService.apk
 vendor/bin/hw/vtservice_hidl
 vendor/bin/volte_imsm_93
 vendor/bin/ipsec_mon
@@ -3453,6 +3491,8 @@ vendor/lib64/vendor.mediatek.hardware.clientapi@1.0.so
 vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
+system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service.trustonic
