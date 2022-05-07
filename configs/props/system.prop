@@ -35,6 +35,11 @@ ro.vendor.mtk_flv_playback_support=1
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mtk_thumbnail_optimization=true
 
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 # USB
 ro.sys.usb.mtp.whql.enable=0
 ro.sys.usb.storage.type=mtp
