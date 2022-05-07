@@ -50,7 +50,7 @@ on init
 
 on property:sys.boot_completed=1
 
-    write /sys/devices/system/cpu/eas/enable 2
+    write /sys/devices/system/cpu/eas/enable 1
     write /proc/cpufreq/cpufreq_sched_disable 0
 
     chown system system /dev/stune/foreground/schedtune.prefer_idle
