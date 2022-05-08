@@ -389,5 +389,5 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/oplus
 
-$(call inherit-product-if-exists, vendor/realme/nashc-ims/nashc-ims-vendor.mk)
-$(call inherit-product-if-exists, vendor/realme/nashc/nashc-vendor.mk)
+$(call inherit-product, vendor/realme/nashc-ims/nashc-ims-vendor.mk)
+$(call inherit-product, vendor/realme/nashc/nashc-vendor.mk)
