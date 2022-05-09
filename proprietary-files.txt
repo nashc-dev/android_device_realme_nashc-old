@@ -3632,6 +3632,16 @@ vendor/lib64/libneuroeara.so
 vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib64/libnxp_extamp_intf.so
 
+# NFC - from RMX3085EEA_11_C.07
+odm/etc/init/init.pn8x.nfc.rc|5d568e326250eba9d9f8a555287a969aadc1be1d
+odm/etc/libnfc-nxp-pnscr.conf|c9bbf87032cf73dc0b76793a15eff838f11ebf84
+odm/etc/nfc/libnfc-nxp.conf_20732:vendor/etc/libnfc-nxp.conf|8baa9607c04c2e586243c078e55f8cfcd337cff4
+odm/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
+odm/lib/libpn557_fw.so|5fd4d17960d258563557d47d70c4d9d11a79fd15
+odm/lib/libpnscr2.so|3cccc2f1c5d197f69b014f479cc071a3766fa6f4
+odm/lib/libsn100u_fw.so|4adda2c9449cdc8f66fc3c653153f8b69c7dc78c
+odm/lib64/libpnscr2.so|5f6ab96f05c75b99f685f5569dbb56ccafee1260
+
 # NVRAM
 vendor/lib/libfile_op.so
 vendor/lib64/libfile_op.so
