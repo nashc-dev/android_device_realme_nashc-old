@@ -431,9 +431,6 @@
     <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
     <integer-array name="config_availableColorModes">
         <item>0</item>
-        <item>1</item>
-        <item>3</item>
-        <item>6</item>
     </integer-array>
 
     <!-- This string array should be overridden by the device to present a list of network
