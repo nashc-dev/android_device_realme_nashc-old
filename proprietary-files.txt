@@ -486,13 +486,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
 
-# Crypto
-odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
-odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc
-odm/etc/vintf/manifest/manifest_oplus_cryptoeng.xml
-odm/lib/vendor.oplus.hardware.cryptoeng@1.0.so
-odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so
-
 # Charger
 odm/firmware/fastchg/20615/charging_thermal_config_default.txt
 odm/firmware/fastchg/20662/charging_thermal_config_default.txt
@@ -504,12 +497,6 @@ odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc
 odm/etc/vintf/manifest/manifest_oplus_charger.xml
 odm/lib/vendor.oplus.hardware.charger@1.0.so
 odm/lib64/vendor.oplus.hardware.charger@1.0.so
-
-# Commondcs
-odm/lib/vendor.oplus.hardware.commondcs@1.0.so
-odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
-vendor/lib/vendor.oplus.hardware.commondcs@1.0.so
-vendor/lib64/vendor.oplus.hardware.commondcs@1.0.so
 
 # Camera
 odm/lib/ov64b_mipi_raw_20730_tuning.so
@@ -2534,13 +2521,6 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.7.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
-# Display Feature
-odm/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service
-odm/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature.xml
-odm/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so
-odm/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
-
 # DMC
 vendor/bin/dmc_core
 vendor/etc/init/dmc_core.rc
@@ -2569,25 +2549,10 @@ vendor/lib64/libwvhidl.so
 # Engineer
 vendor/lib/libaudio_engineer_test.so
 vendor/lib64/libaudio_engineer_test.so
-odm/bin/hw/vendor-oplus-hardware-engineer@1.0-service
-odm/etc/init/vendor-oplus-hardware-engineer@1.0-service.rc
-odm/etc/init/vendor_engineermode.rc
-odm/etc/vintf/manifest/manifest_engineer.xml
-odm/lib/vendor.oplus.hardware.engineer@1.0.so
-odm/lib64/vendor.oplus.hardware.engineer@1.0.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so
-
-# Fido
-odm/bin/hw/vendor.oplus.hardware.fido.fidoca@1.0-service
-odm/etc/init/vendor.oplus.hardware.fido.fidoca@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_fido.xml
-odm/lib/libfido_factory.so
-odm/lib/vendor.oplus.hardware.fido.fidoca@1.0.so
-odm/lib64/libfido_factory.so
-odm/lib64/vendor.oplus.hardware.fido.fidoca@1.0.so
 
 # FM Radio
 vendor/etc/init/init.fmradio_drv.rc
@@ -3160,16 +3125,15 @@ vendor/firmware/soc1_0_ram_mcu_2a_1_hdr.bin
 
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
-odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
-odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
-odm/etc/vintf/manifest/manifest_oplus_ifaa.xml
 odm/init.oplus.fingerprints.rc
 odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
-odm/lib/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so
 odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
-odm/lib64/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so
+odm/lib/vendor.oplus.hardware.commondcs@1.0.so
+odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
+vendor/lib/vendor.oplus.hardware.commondcs@1.0.so
+vendor/lib64/vendor.oplus.hardware.commondcs@1.0.so
 odm/lib/hw/fingerprint.goodix_G2.default.so
 odm/lib/hw/fingerprint.goodix_G3.default.so
 odm/lib/hw/fingerprint.goodix_G5.default.so
@@ -3191,14 +3155,6 @@ odm/lib64/libgf_hal_G3.so
 odm/lib64/libgf_hal_G5.so
 odm/lib64/libgf_hal_G6.so
 odm/lib64/libgf_hal_G7.so
-
-# Face Unlock
-odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service
-odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_face.xml
-odm/lib64/libstface_fd_api.so
-odm/lib64/libstfaceunlockppl.so
-odm/init.oplus.face.rc
 
 # Gatekeeper
 vendor/lib64/hw/libSoftGatekeeper.so
@@ -3384,15 +3340,6 @@ vendor/etc/security/cacerts_supl/c542733d.0
 vendor/etc/security/cacerts_supl/cec771d5.0
 vendor/etc/security/cacerts_supl/f336e3d1.0
 vendor/etc/slp_conf
-
-# Gameopt
-odm/bin/hw/vendor.oplus.hardware.gameopt@1.0-service
-odm/etc/init/vendor.oplus.hardware.gameopt@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_gameopt.xml
-odm/lib/hw/vendor.oplus.hardware.gameopt@1.0-impl.so
-odm/lib/vendor.oplus.hardware.gameopt@1.0.so
-odm/lib64/hw/vendor.oplus.hardware.gameopt@1.0-impl.so
-odm/lib64/vendor.oplus.hardware.gameopt@1.0.so
 
 # Health
 vendor/bin/fuelgauged
@@ -3741,24 +3688,11 @@ vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
-odm/bin/hw/vendor.oplus.hardware.performance@1.0-service
-odm/etc/init/oplus_performance.rc
-odm/etc/init/vendor.oplus.hardware.performance@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_performance.xml
-odm/lib/vendor.oplus.hardware.performance@1.0.so
-odm/lib64/vendor.oplus.hardware.performance@1.0.so
 
 # RPMB
 odm/bin/rpmbengclient_test
 odm/lib/librpmbengclient.so
 odm/lib64/librpmbengclient.so
-
-# RPMH
-odm/bin/hw/vendor.oplus.hardware.rpmh@2.0-service
-odm/etc/init/vendor.oplus.hardware.rpmh@2.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_rpmh-V20.xml
-odm/lib/vendor.oplus.hardware.rpmh@2.0.so
-odm/lib64/vendor.oplus.hardware.rpmh@2.0.so
 
 # Radio
 system_ext/etc/init/datafree.rc
@@ -4604,13 +4538,6 @@ vendor/etc/voicecommand/training/ubmfile/keyword07/hhha/supplement/9
 vendor/etc/voicecommand/training/ubmfile/keyword07/hhha/supplement/b
 vendor/etc/voicecommand/training/ubmfile/keyword07/keyphrase.xml
 
-# Touch
-odm/bin/hw/vendor.oplus.hardware.touch@1.0-service
-odm/etc/init/vendor.oplus.hardware.touch@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_touch.xml
-odm/lib/vendor.oplus.hardware.touch@1.0.so
-odm/lib64/vendor.oplus.hardware.touch@1.0.so
-
 # Thermal
 vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
 vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
@@ -4642,22 +4569,6 @@ vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml
 
 # Vibrator
 vendor/bin/hw/android.hardware.vibrator-service.mediatek
-odm/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so
-odm/bin/hw/vendor.oplus.hardware.lmvibrator@1.0-service
-odm/bin/hw/vendor.oplus.hardware.vibrator-service
-odm/etc/init/vendor.oplus.hardware.lmvibrator@1.0-service.rc
-odm/etc/init/vibrator-default.rc
-odm/etc/vintf/manifest/manifest_oplus_lmvibrator.xml
-odm/etc/vintf/manifest/vibrator-default.xml
-odm/lib/libaacvibrator.so
-odm/lib/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so
-odm/lib/vendor.oplus.hardware.lmvibrator@1.0.so
-odm/lib/vendor.oplus.hardware.vibrator-V1-ndk_platform.so
-odm/lib64/libaacvibrator.so
-odm/lib64/vendor.oplus.hardware.lmvibrator@1.0.so
-odm/lib64/vendor.oplus.hardware.vibrator-V1-ndk_platform.so
-odm/vendor.aac.hardware.richtap.vibrator-timestamp
-odm/vendor.oplus.hardware.vibrator-timestamp
 vendor/etc/init/vibrator-mtk-default.rc
 vendor/etc/vintf/manifest/vibrator-mtk-default.xml
 
@@ -5424,16 +5335,6 @@ odm/firmware/aw8697_weather_wind_RTP_142_234Hz.bin
 odm/firmware/aw8697_weather_wind_RTP_142_237Hz.bin
 
 # Misc
-odm/bin/hw/vendor.oplus.hardware.stability.oplus_project@1.0-service
-odm/etc/init/vendor.oplus.hardware.stability.oplus_project@1.0-service.rc
-odm/lib/vendor.oplus.hardware.stability.oplus_project@1.0.so
-odm/lib64/vendor.oplus.hardware.stability.oplus_project@1.0.so
-odm/etc/vintf/manifest/manifest_oplus_stability_project.xml
-odm/bin/hw/vendor.oplus.hardware.misc@1.0-service
-odm/etc/init/vendor.oplus.hardware.misc@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_misc.xml
-odm/lib/vendor.oplus.hardware.misc@1.0.so
-odm/lib64/vendor.oplus.hardware.misc@1.0.so
 odm/etc/init/init.oplus.reserve.rc
 vendor/etc/init/init.connfem.rc
 odm/bin/hw/subsys_daemon
@@ -5443,13 +5344,6 @@ vendor/bin/dexecutor
 vendor/bin/doeapp-memtester
 odm/etc/init/subsys_daemon.rc
 odm/init.oplus.seccommon.rc
-odm/etc/vintf/manifest/device_manifest_subsys.xml
-odm/lib/libmtk-subsys-service.so
-odm/lib/libsubsys-service.so
-odm/lib/vendor.oplus.hardware.subsys@1.0.so
-odm/lib64/libmtk-subsys-service.so
-odm/lib64/libsubsys-service.so
-odm/lib64/vendor.oplus.hardware.subsys@1.0.so
 vendor/lib/libdynamiclog.so
 vendor/lib/libconnfem.so
 vendor/lib64/libconnfem.so
@@ -5471,13 +5365,6 @@ odm/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so
 odm/lib64/libormshalclient.so
 odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
-
-# Transmessage
-odm/bin/hw/vendor-oplus-hardware-transmessage@1.0-service
-odm/etc/init/vendor-oplus-hardware-transmessage@1.0-service.rc
-odm/etc/vintf/manifest/manifest_transmessage.xml
-odm/lib/vendor.oplus.hardware.transmessage@1.0.so
-odm/lib64/vendor.oplus.hardware.transmessage@1.0.so
 
 # TEE
 vendor/bin/hw/vendor.trustonic.tee@1.1-service
