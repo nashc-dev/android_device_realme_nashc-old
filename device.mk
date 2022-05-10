@@ -206,7 +206,8 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0.vendor \
     android.hardware.memtrack@1.0-service \
     android.hardware.memtrack@1.0-impl \
-    libhwc2onfbadapter.vendor
+    libhwc2onfbadapter.vendor \
+    disable_configstore
 
 # Health
 PRODUCT_PACKAGES += \
