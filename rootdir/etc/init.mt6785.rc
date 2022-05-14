@@ -100,11 +100,6 @@ on charger
     # Stop bootprof
     write /proc/bootprof "0"
 
-service swap_enable_init /vendor/bin/sh /vendor/bin/swap_enable.sh
-	user root
-	disabled
-	oneshot
-
 on early-fs
     write /proc/bootprof "INIT:early-fs"    
 
@@ -123,13 +118,7 @@ on fs
     write /proc/sys/vm/page-cluster 0
     write /proc/sys/vm/swappiness 100
     write /sys/kernel/mm/swap/vma_ra_enabled false
-	chmod +x /vendor/bin/swap_enable.sh
-#ifdef OPLUS_FEATURE_ZRAM_OPT
-	chmod +x /vendor/bin/swap_enable.sh
-	start swap_enable_init
-#else
-	#swapon_all /vendor/fstab.enableswap
-#endif
+    swapon_all /vendor/etc/fstab.mt6785
 
 on fs
    mount iso9660 loop@/vendor/etc/iAmCdRom.iso /mnt/cd-rom ro

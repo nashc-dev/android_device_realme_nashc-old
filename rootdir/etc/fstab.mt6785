@@ -73,3 +73,6 @@ odm                              /odm           ext4   ro       wait,logical,fir
 # External Storage
 /devices/platform/externdevice* auto               auto defaults                                                 voldmanaged=sdcard1:auto
 /devices/platform/usb3_xhci*    auto               vfat defaults                                                 voldmanaged=usbotg:auto
+
+# ZRAM
+/dev/block/zram0                none               swap defaults                                                 zramsize=55%
