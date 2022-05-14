@@ -114,7 +114,8 @@ PRODUCT_PACKAGES += \
     meta_init.project.rc \
     meta_init.rc \
     multi_init.rc \
-    ueventd.mtk.rc
+    ueventd.mtk.rc \
+    ueventd.oplus.rc
 
 # Audio
 PRODUCT_PACKAGES += \
