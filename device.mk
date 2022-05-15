@@ -211,6 +211,10 @@ PRODUCT_PACKAGES += \
     libhwc2onfbadapter.vendor \
     disable_configstore
 
+# Doze
+PRODUCT_PACKAGES += \
+    OplusDoze
+
 # Health
 PRODUCT_PACKAGES += \
    android.hardware.health@2.1-service \
