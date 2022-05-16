@@ -3870,8 +3870,6 @@ vendor/lib64/libMcTeeSoter.so
 system_ext/app/SoterService/SoterService.apk
 
 # Sensors
-vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek
-vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 vendor/lib64/hw/sensors.mt6785.so
 vendor/lib64/libksensor.so
