@@ -508,16 +508,15 @@
     <!-- The restoring is handled by modem if it is true-->
     <bool translatable="false" name="skip_restoring_network_selection">true</bool>
 
-    <!-- Default files to pin via Pinner Service -->
-    <string-array name="config_defaultPinnerServiceFiles">
-        <item>/system/lib/libjavacrypto.so</item>
-        <item>/system/lib/libhidltransport.so</item>
-        <item>/system/framework/arm/boot-core-libart.oat</item>
-        <item>/system/framework/arm/boot-conscrypt.oat</item>
-        <item>/system/framework/arm/boot-core-libart.vdex</item>
-        <item>/system/framework/arm/boot-ext.vdex</item>
-        <item>/system/framework/arm/boot.vdex</item>
-        <item>/system/framework/arm/boot-framework.vdex</item>
+    <!-- Default list of files pinned by the Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"/system/framework/framework.jar"</item>
+        <item>"/system/framework/services.jar"</item>
+        <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
+        <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
+        <item>"/apex/com.android.media/javalib/updatable-media.jar"</item>
+        <item>"/system/bin/surfaceflinger"</item>
+        <item>"/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk"</item>
     </string-array>
 
     <!-- Indicate whether to allow the device to suspend when the screen is off
