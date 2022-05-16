@@ -3441,6 +3441,12 @@ vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
+# Kernel Power Off Charging (KPOC)
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib64/libshowlogo.so
+lib64/libsysenv_system.so
+
 # Light
 vendor/lib/hw/lights.mt6785.so
 vendor/lib64/hw/lights.mt6785.so
