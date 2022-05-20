@@ -1,4 +1,4 @@
-# Unpinned blobs from sys_mssi_64_cn_armv82-user 12 SP1A.210812.016 1650442096775 release-keys
+# Unpinned blobs from sys_mssi_64_cn_armv82-user 12 SP1A.210812.016 1652266053889 release-keys
 
 # AAL
 vendor/lib64/libaal_cust.so
@@ -3911,7 +3911,7 @@ vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
 vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib/hw/android.hardware.thermal@2.0-impl.so
 odm/etc/temperature_profile/sys_thermal_control_config.xml
-odm/etc/temperature_profile/sys_high_temp_protect_realme_20732.xml
+odm/etc/temperature_profile/sys_high_temp_protect_realme_20730.xml
 vendor/bin/thermal
 vendor/bin/thermal_manager
 vendor/bin/thermalloadalgod
