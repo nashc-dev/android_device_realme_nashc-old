@@ -3411,9 +3411,22 @@ vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc
 vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml
 
 # Vibrator
-vendor/bin/hw/android.hardware.vibrator-service.mediatek
-vendor/etc/init/vibrator-mtk-default.rc
-vendor/etc/vintf/manifest/vibrator-mtk-default.xml
+odm/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so
+odm/bin/hw/vendor.oplus.hardware.lmvibrator@1.0-service
+odm/bin/hw/vendor.oplus.hardware.vibrator-service
+odm/etc/init/vendor.oplus.hardware.lmvibrator@1.0-service.rc
+odm/etc/init/vibrator-default.rc
+odm/etc/vintf/manifest/manifest_oplus_lmvibrator.xml
+odm/etc/vintf/manifest/vibrator-default.xml
+odm/lib/libaacvibrator.so
+odm/lib/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so
+odm/lib/vendor.oplus.hardware.lmvibrator@1.0.so
+odm/lib/vendor.oplus.hardware.vibrator-V1-ndk_platform.so
+odm/lib64/libaacvibrator.so
+odm/lib64/vendor.oplus.hardware.lmvibrator@1.0.so
+odm/lib64/vendor.oplus.hardware.vibrator-V1-ndk_platform.so
+odm/vendor.aac.hardware.richtap.vibrator-timestamp
+odm/vendor.oplus.hardware.vibrator-timestamp
 
 # Vibrator Firmware
 odm/firmware/tfa98xx/tfa98xx_vibrator_remain_12_RTP_56_226Hz.bin
