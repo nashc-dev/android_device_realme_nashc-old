@@ -176,5 +176,8 @@ ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/configs/vintf/manifest_nfc.xml
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
+# SELinux
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
+
 # VNDK
 BOARD_VNDK_VERSION := current
