@@ -390,6 +390,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/nfc_features.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/nfc_features.xml
 
+# ORMS
+PRODUCT_PACKAGES += \
+    orms_core_config
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0.vendor \

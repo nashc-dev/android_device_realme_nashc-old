@@ -1,0 +1,7 @@
+prebuilt_etc {
+        name: "orms_core_config",
+        src: "orms_core_config.xml",
+        filename_from_src: true,
+        sub_dir: "orms",
+	device_specific: true
+}
