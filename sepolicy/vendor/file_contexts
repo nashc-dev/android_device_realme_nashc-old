@@ -1,0 +1,2 @@
+# Light
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.nashc                                                 u:object_r:hal_light_default_exec:s0
