@@ -1,5 +1,13 @@
+# Charging
+/dev/oplus_chg                                                                                                         u:object_r:oplus_charger_device:s0
+/(odm|vendor/odm)/bin/hw/vendor\.oplus\.hardware\.charger@1\.0-service                                                 u:object_r:hal_charger_oplus_exec:s0
+
 # Light
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.nashc                                                 u:object_r:hal_light_default_exec:s0
 
 # Sensors
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@2\.0-service-multihal\.nashc                                 u:object_r:hal_sensors_default_exec:s0
+
+# Firmwares
+/odm/vendor/firmware(/.*)?                                                                                             u:object_r:vendor_firmware_file:s0
+/odm/firmware(/.*)?                                                                                                    u:object_r:vendor_firmware_file:s0

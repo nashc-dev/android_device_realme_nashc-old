@@ -1,0 +1,3 @@
+# Charging
+type hal_charger_oplus_hwservice, hwservice_manager_type;
+

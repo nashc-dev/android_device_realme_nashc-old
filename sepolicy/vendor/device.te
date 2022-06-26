@@ -1,0 +1,2 @@
+# Charging
+type oplus_charger_device, dev_type, fs_type;

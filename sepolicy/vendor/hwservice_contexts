@@ -1,0 +1,2 @@
+# Charging
+vendor.oplus.hardware.charger::ICharger                                       u:object_r:hal_charger_oplus_hwservice:s0
