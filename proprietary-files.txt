@@ -3189,16 +3189,9 @@ vendor/lib64/libconnfem.so
 vendor/lib64/libforkexecwrap.so
 
 # ORMS
-odm/bin/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-service
-odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_orms.xml
-odm/lib/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so
 odm/lib/libormshalclient.so
-odm/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so
 odm/lib/vendor.oplus.hardware.orms@1.0.so
-odm/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so
 odm/lib64/libormshalclient.so
-odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 
 # TEE
