@@ -1,0 +1,5 @@
+# Allow health HAL to access relevant sysfs nodes
+allow hal_health_default vendor_sysfs_usb_supply:file { read open getattr };
+allow hal_health_default vendor_sysfs_ac_supply:file { read open getattr };
+allow hal_health_default vendor_sysfs_battery_supply:file { read open getattr };
+allow hal_health_default vendor_sysfs_charger_supply:file { read open getattr };
