@@ -1,2 +1,15 @@
 # Charging
 vendor.oplus.hardware.charger::ICharger                                       u:object_r:hal_charger_oplus_hwservice:s0
+
+# CommonDcs
+vendor.oplus.hardware.commondcs::ICommonDcsHalService                         u:object_r:hal_commondcs_oplus_hwservice:s0
+
+# Fingerprint
+vendor.oplus.hardware.biometrics.fingerprint::IBiometricsFingerprint          u:object_r:hal_fingerprint_oplus_hwservice:s0
+
+# Orms
+vendor.oplus.hardware.orms.ormsHalService::IOrmsHalService                    u:object_r:hal_orms_oplus_hwservice:s0
+vendor.oplus.hardware.orms::IOrmsHalProxy                                     u:object_r:hal_orms_oplus_hwservice:s0
+
+# Performance
+vendor.oplus.hardware.performance::IPerformance                               u:object_r:hal_performance_oplus_hwservice:s0

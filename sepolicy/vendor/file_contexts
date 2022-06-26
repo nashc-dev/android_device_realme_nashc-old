@@ -2,11 +2,25 @@
 /dev/oplus_chg                                                                                                         u:object_r:oplus_charger_device:s0
 /(odm|vendor/odm)/bin/hw/vendor\.oplus\.hardware\.charger@1\.0-service                                                 u:object_r:hal_charger_oplus_exec:s0
 
+# Display
+/dev/oplus_display                                                                                                     u:object_r:oplus_display_device:s0
+
 # Light
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.nashc                                                 u:object_r:hal_light_default_exec:s0
 
 # Sensors
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@2\.0-service-multihal\.nashc                                 u:object_r:hal_sensors_default_exec:s0
+
+# Fingerprint
+/dev/jiiov_fp                                                                                                          u:object_r:fingerprintd_device:s0
+/dev/goodix_fp                                                                                                         u:object_r:fingerprintd_device:s0
+/data/vendor/FactoryTestReport(/.*)?                                                                                   u:object_r:factorytestreport_vendor_data_file:s0
+/data/vendor/fingerprint(/.*)?                                                                                         u:object_r:oplus_fingerprint_file:s0
+/data/vendor/optical_fingerprint(/.*)?                                                                                 u:object_r:oplus_fingerprint_file:s0
+/mnt/vendor/persist/fingerprint(/.*)?                                                                                  u:object_r:oplus_fingerprint_file:s0
+/mnt/vendor/persist/fingerprint/jiiov(/.*)?    	                                                                       u:object_r:factorytestreport_vendor_data_file:s0
+/(odm|vendor/odm)/bin/hw/vendor\.oplus\.hardware\.biometrics\.fingerprint@2\.1-service                                 u:object_r:hal_fingerprint_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.oplus                          u:object_r:hal_fingerprint_default_exec:s0
 
 # Firmwares
 /odm/vendor/firmware(/.*)?                                                                                             u:object_r:vendor_firmware_file:s0
