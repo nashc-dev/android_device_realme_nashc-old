@@ -1,2 +1,5 @@
 # Light
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.nashc                                                 u:object_r:hal_light_default_exec:s0
+
+# Sensors
+/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@2\.0-service-multihal\.nashc                                 u:object_r:hal_sensors_default_exec:s0
