@@ -23,6 +23,8 @@ allow hal_charger_oplus vendor_proc_wireless:file rw_file_perms;
 
 allow hal_charger_oplus sysfs_thermal:file r_file_perms;
 allow hal_charger_oplus sysfs_thermal:dir search;
+allow hal_charger_oplus sysfs_therm:dir search;
+allow hal_charger_oplus sysfs_therm:file r_file_perms;
 allow hal_charger_oplus vendor_sysfs_usb_supply:dir search;
 allow hal_charger_oplus vendor_sysfs_usb_supply:file rw_file_perms;
 allow hal_charger_oplus vendor_sysfs_usb_supply:lnk_file rw_file_perms;
