@@ -5,6 +5,15 @@
 # Display
 /dev/oplus_display                                                                                                     u:object_r:oplus_display_device:s0
 
+# Graphics
+/vendor/lib(64)?/mt6785/libpq_prot\.so                                                                                 u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt6785/libdpframework\.so                                                                             u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt6785/libmtk_drvb\.so                                                                                u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt6785/libnir_neon_driver\.so                                                                         u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt6785/libneuron_runtime\.5\.so                                                                       u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt6785/libneuron_runtime\.so                                                                          u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt6785/libmcv_runtime.mtk\.so                                                                         u:object_r:same_process_hal_file:s0
+
 # Light
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.nashc                                                 u:object_r:hal_light_default_exec:s0
 
