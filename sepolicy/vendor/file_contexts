@@ -18,7 +18,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.nashc                                                 u:object_r:hal_light_default_exec:s0
 
 # Sensors
-/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@2\.0-service-multihal\.nashc                                 u:object_r:hal_sensors_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@2\.0-service-multihal\.nashc                                 u:object_r:mtk_hal_sensors_exec:s0
 
 # Fingerprint
 /dev/jiiov_fp                                                                                                          u:object_r:fingerprintd_device:s0
