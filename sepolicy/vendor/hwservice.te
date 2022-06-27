@@ -1,3 +1,6 @@
+# Camera
+type hal_camera_oplus_hwservice, hwservice_manager_type;
+
 # Charging
 type hal_charger_oplus_hwservice, hwservice_manager_type;
 

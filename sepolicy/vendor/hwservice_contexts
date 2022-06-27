@@ -1,3 +1,6 @@
+# Camera
+vendor.oplus.hardware.engcamera::IEngCamera                                   u:object_r:hal_camera_oplus_hwservice:s0
+
 # Charging
 vendor.oplus.hardware.charger::ICharger                                       u:object_r:hal_charger_oplus_hwservice:s0
 

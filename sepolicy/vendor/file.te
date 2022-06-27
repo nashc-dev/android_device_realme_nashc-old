@@ -1,3 +1,8 @@
+# Camera
+type vendor_proc_flash, fs_type, proc_type;
+type vendor_camera_update_data_file, file_type, data_file_type;
+type vendor_persist_camera_file, file_type;
+
 # Charging
 type vendor_sysfs_ac_supply, fs_type, sysfs_type;
 type vendor_sysfs_battery_supply, fs_type, sysfs_type;
