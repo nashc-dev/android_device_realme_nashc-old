@@ -10,3 +10,6 @@ vendor.fingerprint.             u:object_r:vendor_fingerprint_prop:s0
 
 # Camera
 vendor.oplus.camera.             u:object_r:vendor_oplus_prop:s0
+ro.oplus.camera.                 u:object_r:vendor_oplus_prop:s0
+ro.oplus.market.name             u:object_r:vendor_oplus_prop:s0
+ro.oplus.system.camera.          u:object_r:vendor_oplus_prop:s0
