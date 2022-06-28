@@ -29,3 +29,7 @@ genfscon proc /fp_id                                u:object_r:vendor_proc_finge
 genfscon proc /oplusSensorFeature                   u:object_r:vendor_proc_oplus_sensor_feature:s0
 genfscon proc /mag_soft_parameter.json              u:object_r:vendor_proc_oplus_sensor_param:s0
 genfscon sysfs /devices/virtual/oplus_sensor        u:object_r:vendor_sysfs_oplus_virtual_sensor:s0
+
+# Oplus
+genfscon proc /oplusVersion                         u:object_r:vendor_proc_oplus_version:s0
+

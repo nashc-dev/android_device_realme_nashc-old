@@ -35,4 +35,6 @@ allow hal_charger_oplus vendor_sysfs_battery_supply:lnk_file rw_file_perms;
 allow hal_charger_oplus vendor_firmware_file:dir search;
 allow hal_charger_oplus vendor_firmware_file:file r_file_perms;
 
+r_dir_file(hal_charger_oplus, vendor_proc_oplus_version)
+
 get_prop(hal_charger_oplus, hwservicemanager_prop)
