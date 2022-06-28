@@ -2884,8 +2884,6 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
 # Power
-odm/etc/power_profile/power_monitor_config.xml
-odm/etc/power_profile/power_profile.xml
 odm/etc/powerhal/power_app_cfg.xml
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
 vendor/etc/init/init.fpsgo.rc
