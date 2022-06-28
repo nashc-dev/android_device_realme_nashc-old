@@ -2917,10 +2917,7 @@ odm/lib/librpmbengclient.so
 odm/lib64/librpmbengclient.so
 
 # Radio
-odm/bin/hw/vendor.oplus.hardware.mtkmodemaci@1.0-service
 odm/bin/mtkftm
-odm/etc/init/vendor.oplus.hardware.mtkmodemaci@1.0-service.rc
-odm/etc/vintf/manifest/manifest_oplus_mtkmodemaci.xml
 odm/etc/ecc_list.xml
 odm/lib/vendor.oplus.hardware.appradio@1.0.so
 odm/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so
