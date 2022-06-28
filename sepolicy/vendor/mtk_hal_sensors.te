@@ -1,0 +1,4 @@
+r_dir_file(mtk_hal_sensors, vendor_proc_oplus_sensor_feature)
+r_dir_file(mtk_hal_sensors, vendor_sysfs_oplus_virtual_sensor)
+
+allow mtk_hal_sensors vendor_proc_oplus_sensor_param:file r_file_perms;
