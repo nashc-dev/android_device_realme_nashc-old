@@ -24,6 +24,7 @@
 
 # Sensors
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@2\.0-service-multihal\.nashc                                 u:object_r:mtk_hal_sensors_exec:s0
+/dev/m_virtual_sensor_misc                                                                                             u:object_r:virtual_sensor_device:s0
 
 # Fingerprint
 /dev/jiiov_fp                                                                                                          u:object_r:fingerprintd_device:s0
