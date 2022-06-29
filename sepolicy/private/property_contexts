@@ -6,4 +6,6 @@ sys.oplus.mm.         u:object_r:system_oplus_audio_prop:s0
 
 # Version
 ro.separate.soft      u:object_r:system_oplus_project_prop:s0
+ro.oplus.version.     u:object_r:system_oplus_project_prop:s0
+ro.oplus.image.       u:object_r:system_oplus_project_prop:s0
 
