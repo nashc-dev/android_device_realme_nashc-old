@@ -6,11 +6,12 @@ allow hal_fingerprint_default oplus_fingerprint_file:file { create_file_perms rw
 allow hal_fingerprint_default factorytestreport_vendor_data_file:dir create_dir_perms;
 allow hal_fingerprint_default factorytestreport_vendor_data_file:file create_file_perms;
 allow hal_fingerprint_default oplus_display_device:chr_file rw_file_perms;
-allow hal_fingerprint_default vendor_sysfs_graphics:dir r_dir_perms;
 allow hal_fingerprint_default tee_device:chr_file rw_file_perms;
 allow hal_fingerprint_default mobicore_user_device:chr_file rw_file_perms;
+allow hal_fingerprint_default vendor_sysfs_graphics:file w_file_perms;
 
 r_dir_file(hal_fingerprint_default, vendor_proc_fingerprint)
+r_dir_file(hal_fingerprint_default, vendor_sysfs_graphics)
 
 allow hal_fingerprint_default vendor_proc_display:dir r_dir_perms;
 allow hal_fingerprint_default vendor_proc_display:file rw_file_perms;
