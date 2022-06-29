@@ -16,3 +16,6 @@ vendor.oplus.hardware.orms::IOrmsHalProxy                                     u:
 
 # Performance
 vendor.oplus.hardware.performance::IPerformance                               u:object_r:hal_performance_oplus_hwservice:s0
+
+# Wifi
+vendor.oplus.hardware.wifi.supplicant::IOplusSupplicant                       u:object_r:hal_wifi_supplicant_hwservice:s0
