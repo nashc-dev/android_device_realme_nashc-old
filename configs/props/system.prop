@@ -27,6 +27,7 @@ dalvik.vm.dex2oat64.enabled=true
 vendor.rild.libpath=mtk-ril.so
 vendor.rild.libargs=-d /dev/ttyC0
 ro.vendor.mtk_telephony_add_on_policy=0
+ro.telephony.sim.count=2
 
 # Perf
 ro.mtk_perf_simple_start_win=1

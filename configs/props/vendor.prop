@@ -157,7 +157,6 @@ ro.vendor.md_prop_ver=1
 persist.radio.multisim.config=dsds
 persist.vendor.radio.msimmode=dsds
 ro.vendor.radio.max.multisim=dsds
-ro.telephony.sim.count=2
 telephony.active_modems.max_count=2
 ro.vendor.mtk_md_world_mode_support=1
 persist.vendor.radio.smart.data.switch=1
