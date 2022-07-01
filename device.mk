@@ -43,6 +43,8 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     CarrierConfigOverlay
 
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
 # Recovery
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/init.recovery.mt6785.rc:recovery/root/init.recovery.mt6785.rc
