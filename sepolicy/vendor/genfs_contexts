@@ -24,6 +24,7 @@ genfscon sysfs /kernel/oplus_display                u:object_r:vendor_sysfs_grap
 
 # Fingerprint
 genfscon proc /fp_id                                u:object_r:vendor_proc_fingerprint:s0
+genfscon proc /fp_kernel_event                      u:object_r:vendor_proc_fingerprint:s0
 
 # Sensors
 genfscon proc /oplusSensorFeature                   u:object_r:vendor_proc_oplus_sensor_feature:s0
