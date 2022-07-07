@@ -30,6 +30,7 @@ type vendor_proc_fingerprint, fs_type, proc_type;
 type vendor_proc_oplus_sensor_feature, fs_type, proc_type;
 type vendor_proc_oplus_sensor_param, fs_type, proc_type;
 type vendor_sysfs_oplus_virtual_sensor, fs_type, sysfs_type;
+type oplus_block_device, dev_type;
 
 # Oplus
 type vendor_proc_oplus_version, fs_type, proc_type;

@@ -28,6 +28,7 @@ genfscon proc /fp_kernel_event                      u:object_r:vendor_proc_finge
 
 # Sensors
 genfscon proc /oplusSensorFeature                   u:object_r:vendor_proc_oplus_sensor_feature:s0
+genfscon proc /oplusCustom/Sensor                   u:object_r:vendor_proc_oplus_sensor_feature:s0
 genfscon proc /mag_soft_parameter.json              u:object_r:vendor_proc_oplus_sensor_param:s0
 genfscon sysfs /devices/virtual/oplus_sensor        u:object_r:vendor_sysfs_oplus_virtual_sensor:s0
 genfscon sysfs /class/oplus_sensor                  u:object_r:vendor_sysfs_oplus_virtual_sensor:s0
