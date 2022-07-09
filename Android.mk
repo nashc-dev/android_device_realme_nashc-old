@@ -18,7 +18,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter nashc, $(TARGET_DEVICE)),)
 
-$(call add-radio-file,dynamic-remove-oppo)
+$(call add-radio-file,configs/dynamic-remove-oppo)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
