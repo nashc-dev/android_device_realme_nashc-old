@@ -3237,11 +3237,8 @@ vendor/lib64/vendor.trustonic.tee@1.0.so
 vendor/lib64/vendor.trustonic.tee@1.1.so
 
 # WiFi
-odm/bin/hw/vendor.oplus.hardware.wifi@1.1-service
 odm/bin/iwpriv_vendor
 odm/etc/init/init.vendor.oplus.connectivity.rc
-odm/etc/init/vendor.oplus.hardware.wifi@1.1-service-mtk.rc
-odm/etc/vintf/manifest/oplus_wifi_service_device.xml
 odm/etc/wifi/txpowerctrl.cfg
 odm/etc/wifi/wifi.cfg
 odm/etc/wifi/wifi_active_channel.cfg
