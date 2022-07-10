@@ -11,25 +11,10 @@ vendor/lib64/libaal_mtk.so
 vendor/lib64/libaalservice.so
 
 # AEE
-vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service
-vendor/bin/aee_aedv
-vendor/bin/aee_aedv64
-vendor/bin/aee_dumpstatev
-vendor/bin/aeev
-vendor/bin/loghidlvendorservice
-vendor/etc/init/aee_aedv.rc
-vendor/etc/init/aee_aedv64.rc
-vendor/etc/init/loghidlvendorservice.rc
-vendor/etc/init/mtklog.rc
-vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc
-vendor/etc/aee-commit
-vendor/etc/aee-config
 vendor/lib/libaedv.so
 vendor/lib/libladder.so
 vendor/lib64/libaedv.so
 vendor/lib64/libladder.so
-vendor/lib64/vendor.mediatek.hardware.aee@1.0.so
-vendor/lib64/vendor.mediatek.hardware.aee@1.1.so
 
 # ADSP
 odm/lib64/libadsprpc.so
