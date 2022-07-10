@@ -1770,12 +1770,6 @@ odm/etc/tm_nt37701_2048_tm_nt37701_42_eyeprotect_data.xml
 odm/etc/tm_nt37701_2048_tm_nt37701_42_srgb_eyeprotect_data.xml
 odm/firmware/aw88264/aw882xx_rcv_reg.bin
 odm/firmware/aw88264/aw882xx_spk_reg.bin
-odm/firmware/fastchg/20171/oplus_vooc_fw_op10.bin
-odm/firmware/fastchg/20353/oplus_vooc_fw_op10.bin
-odm/firmware/fastchg/20827/oplus_vooc_fw_op10.bin
-odm/firmware/fastchg/20827/oplus_vooc_fw_rt5125.bin
-odm/firmware/fastchg/20831/oplus_vooc_fw_op10.bin
-odm/firmware/fastchg/20831/oplus_vooc_fw_rt5125.bin
 odm/firmware/tp/20730/FW_FT3518_SAMSUNG.img
 odm/firmware/tp/20730/FW_FT3518_SAMSUNG_FAE.img
 odm/firmware/tp/20730/FW_GT9886_SAMSUNG.img
