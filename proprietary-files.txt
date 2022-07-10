@@ -3117,7 +3117,6 @@ vendor/etc/init/init.thermal_manager.rc
 vendor/etc/init/init.thermalloadalgod.rc
 vendor/etc/fstb.cfg
 vendor/etc/mpe.conf
-vendor/etc/throttle.sh
 vendor/lib/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib/hw/thermal_hal.so
 vendor/lib/libthermalalgo.so
@@ -3152,7 +3151,6 @@ vendor/bin/doeapp-memtester
 vendor/etc/init/bootperf.rc
 vendor/etc/init/chipinfo_init.rc
 vendor/etc/init/init.connfem.rc
-vendor/etc/partition_permission.sh
 vendor/lib/libconnfem.so
 vendor/lib/libdynamiclog.so
 vendor/lib64/libconnfem.so
