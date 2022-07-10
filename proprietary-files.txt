@@ -1753,21 +1753,6 @@ vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so
 vendor/etc/init/init.fmradio_drv.rc
 
 # Firmware
-odm/etc/DownloadModeKey/MT6893_C
-odm/etc/devices_config/devices_config.json
-odm/etc/Multimedia_Daemon_List.xml
-odm/etc/aac_richtap.config
-odm/etc/boe_nt37800_2048_nt37800_eyeprotect_data.xml
-odm/etc/boe_nt37800_2048_nt37800_srgb_eyeprotect_data.xml
-odm/etc/samsung1024_cmd_mode_ams643xy04_mtk05_eyeprotect_data.xml
-odm/etc/samsung1024_vdo_mode_ams643xy04_cinema_eyeprotect_data.xml
-odm/etc/samsung1024_vdo_mode_ams643xy04_eyeprotect_data.xml
-odm/etc/samsung1024_vdo_mode_ams643xy04_srgb_eyeprotect_data.xml
-odm/etc/samsung2048_ana6705_samsung_eyeprotect_data.xml
-odm/etc/samsung2048_ana6705_samsung_srgb_eyeprotect_data.xml
-odm/etc/tfavib_platform.config
-odm/etc/tm_nt37701_2048_tm_nt37701_42_eyeprotect_data.xml
-odm/etc/tm_nt37701_2048_tm_nt37701_42_srgb_eyeprotect_data.xml
 odm/firmware/aw88264/aw882xx_rcv_reg.bin
 odm/firmware/aw88264/aw882xx_spk_reg.bin
 odm/firmware/tp/20730/FW_FT3518_SAMSUNG.img
@@ -1776,25 +1761,12 @@ odm/firmware/tp/20730/FW_GT9886_SAMSUNG.img
 odm/firmware/tp/20730/FW_GT9886_SAMSUNG_FAE.img
 odm/firmware/tp/20730/LIMIT_FT3518_SAMSUNG.img
 odm/firmware/tp/20730/LIMIT_GT9886_SAMSUNG.img
-odm/firmware/barca_alarm_ring_RTP_120.bin
-odm/firmware/barca_incoming_ring_RTP_121.bin
-odm/firmware/barca_notice_ring_RTP_122.bin
-odm/firmware/lighthouse.mp3
 vendor/bin/lib3a.ccu.ddr
 vendor/bin/lib3a.ccu.dm
 vendor/bin/lib3a.ccu.pm
-vendor/etc/AbnormalDisplayLog_dynamic.xml
-vendor/etc/AudioLog_dynamic.xml
 vendor/etc/FV-SAM-MTK2.dat
 vendor/etc/MNL_Config.xml
-vendor/etc/VideoLog_dynamic.xml
-vendor/etc/armnn_app.config
 vendor/etc/default_pd_calibration.bin
-vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_FullLog.bin
-vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_PLS_PS_ONLY.bin
-vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_SlimLog_DspAllOff.bin
-vendor/firmware/customfilter/catcher_filter_1_ulwctg_n__Default.bin
-vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_meta.bin
 vendor/firmware/BT_FW.cfg
 vendor/firmware/WIFI_RAM_CODE_soc1_0_2a_1.bin
 vendor/firmware/WMT_SOC.cfg
