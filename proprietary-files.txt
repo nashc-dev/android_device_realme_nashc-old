@@ -1738,6 +1738,7 @@ vendor/lib/libtlcWidevineModularDrm.so
 vendor/lib/liburee_meta_drmkeyinstall.so
 vendor/lib/libwvhidl.so
 vendor/lib64/mediadrm/libwvdrmengine.so
+vendor/lib64/libtlcWidevineModularDrm.so
 vendor/lib64/liburee_meta_drmkeyinstall.so
 vendor/lib64/libwvhidl.so
 
