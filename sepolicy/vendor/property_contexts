@@ -10,7 +10,9 @@ vendor.flash.locked             u:object_r:exported_default_prop:s0
 vendor.fingerprint.             u:object_r:vendor_fingerprint_prop:s0
 
 # Camera
-vendor.oplus.camera.             u:object_r:vendor_oplus_prop:s0
-ro.oplus.camera.                 u:object_r:vendor_oplus_prop:s0
-ro.oplus.market.name             u:object_r:vendor_oplus_prop:s0
-ro.oplus.system.camera.          u:object_r:vendor_oplus_prop:s0
+vendor.oplus.camera.               u:object_r:vendor_oplus_prop:s0
+ro.oplus.camera.                   u:object_r:vendor_oplus_prop:s0
+ro.oplus.market.name               u:object_r:vendor_oplus_prop:s0
+ro.oplus.system.camera.            u:object_r:vendor_oplus_prop:s0
+persist.vendor.camera.privapp.list u:object_r:vendor_oplus_prop:s0
+vendor.debug.cameralog.enable      u:object_r:vendor_oplus_prop:s0
