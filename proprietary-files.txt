@@ -446,7 +446,6 @@ vendor/bin/autobt
 vendor/bin/bip
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/etc/init/init.bip.rc
-vendor/etc/init/init.bt_drv.rc
 vendor/lib/libbluetooth_hw_test.so
 vendor/lib/libbluetooth_mtk.so
 vendor/lib/libbluetooth_mtk_pure.so
@@ -1750,9 +1749,6 @@ vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so
 
-# FM Radio
-vendor/etc/init/init.fmradio_drv.rc
-
 # Firmware
 odm/firmware/aw88264/aw882xx_rcv_reg.bin
 odm/firmware/aw88264/aw882xx_spk_reg.bin
@@ -1922,7 +1918,6 @@ vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Vodafone.xml
 vendor/etc/gnss/agps_profiles_conf2.xml
 vendor/etc/init/android.hardware.gnss-service.mediatek.rc
-vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/security/cacerts/01419da9.0
 vendor/etc/security/cacerts/04f60c28.0
@@ -2768,8 +2763,6 @@ vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 vendor/etc/init/init.wfca.rc
-vendor/etc/init/init.wlan_drv.rc
-vendor/etc/init/init.wmt_drv.rc
 vendor/etc/init/init.wod.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/networksetting.rc
