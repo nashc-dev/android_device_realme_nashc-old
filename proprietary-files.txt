@@ -2087,6 +2087,10 @@ vendor/bin/fuelgauged
 vendor/etc/init/fuelgauged_init.rc
 vendor/lib/libfgauge_gm30.so
 
+# Hotword Enrollment
+-my_product/framework/com.android.hotwordenrollment.common.util.jar:system_ext/framework/com.android.hotwordenrollment.common.util.jar
+-my_product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4.apk:product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk
+
 # IMS
 bin/vtservice
 etc/init/init.vtservice.rc
