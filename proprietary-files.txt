@@ -69,6 +69,7 @@ vendor/lib/libaudiofmtconv.so
 vendor/lib/libaudioloudc.so
 vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiotoolkit_vendor.so
+vendor/lib/libaudio_engineer_test.so
 vendor/lib/libaurisysdemo.so
 vendor/lib/libbessound_hd_mtk_vendor.so
 vendor/lib/libblisrc32_vendor.so
@@ -113,6 +114,7 @@ vendor/lib64/libaudiofmtconv.so
 vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiotoolkit_vendor.so
+vendor/lib64/libaudio_engineer_test.so
 vendor/lib64/libaurisysdemo.so
 vendor/lib64/libbessound_hd_mtk_vendor.so
 vendor/lib64/libblisrc32_vendor.so
@@ -1334,14 +1336,6 @@ vendor/lib64/libtlcWidevineModularDrm.so
 vendor/lib64/liburee_meta_drmkeyinstall.so
 vendor/lib64/libwvhidl.so
 
-# Engineer
-vendor/lib/libaudio_engineer_test.so
-vendor/lib64/libaudio_engineer_test.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
-vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so
-
 # Firmware
 odm/firmware/aw88264/aw882xx_rcv_reg.bin
 odm/firmware/aw88264/aw882xx_spk_reg.bin
@@ -2048,7 +2042,6 @@ vendor/bin/ccci_rpcd
 vendor/bin/charon
 vendor/bin/doeapp-sat
 vendor/bin/dtc_vendor
-vendor/bin/em_hidl
 vendor/bin/epdg_wod
 vendor/bin/factory
 vendor/bin/gsm0710muxd
@@ -2064,7 +2057,6 @@ vendor/bin/stp_dump3
 vendor/bin/stroke
 vendor/etc/apdb/APDB_MT6785_S01__W2210
 vendor/etc/apdb/APDB_MT6785_S01__W2210_ENUM
-vendor/etc/init/em_hidl_user.rc
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
