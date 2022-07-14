@@ -2655,9 +2655,7 @@ vendor/etc/init/vibrator-mtk-default.rc
 vendor/etc/vintf/manifest/vibrator-mtk-default.xml
 
 # Misc
-odm/bin/hw/subsys_daemon
 odm/etc/init/init.oplus.reserve.rc
-odm/etc/init/subsys_daemon.rc
 odm/init.oplus.seccommon.rc
 vendor/bin/chipinfo
 vendor/bin/dconfig
