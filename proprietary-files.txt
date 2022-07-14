@@ -2275,18 +2275,6 @@ vendor/lib64/libvpu.so
 vendor/lib64/libvpu5.so
 
 # Media (OMX)
-lib/libged_sys.so
-lib/libgralloc_extra_sys.so
-lib/libstagefright_wfd_mtk.so
-lib64/libged_sys.so
-lib64/libgralloc_extra_sys.so
-lib64/libstagefright_wfd_mtk.so
-system_ext/lib/libiatlasservice.so
-system_ext/lib/libstagefright_hdcp.so
-system_ext/lib/vendor.oplus.hardware.hdcp@1.0.so
-system_ext/lib64/libiatlasservice.so
-system_ext/lib64/libstagefright_hdcp.so
-system_ext/lib64/vendor.oplus.hardware.hdcp@1.0.so
 vendor/lib/libMtkOmxAdpcmDec.so
 vendor/lib/libMtkOmxAlacDec.so
 vendor/lib/libMtkOmxApeDec.so
@@ -2457,9 +2445,6 @@ odm/lib/vendor.oplus.hardware.radio@1.0.so
 odm/lib64/vendor.oplus.hardware.appradio@1.0.so
 odm/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so
 odm/lib64/vendor.oplus.hardware.radio@1.0.so
-system_ext/etc/init/datafree.rc
-system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
-system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 vendor/bin/hw/mtkfusionrild
 vendor/bin/AgentTest
 vendor/bin/ccci_mdinit
