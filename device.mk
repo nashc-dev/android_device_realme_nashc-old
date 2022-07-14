@@ -98,10 +98,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.mt6785 \
     fstab.mt6785.ramdisk \
-    factory_init.connectivity.common.rc \
-    factory_init.connectivity.rc \
-    factory_init.project.rc \
-    factory_init.rc \
     init.ago.rc \
     init.cgroup.rc \
     init.connectivity.common.rc \
@@ -112,12 +108,6 @@ PRODUCT_PACKAGES += \
     init.mt6785.usb.rc \
     init.project.rc \
     init.sensor_1_0.rc \
-    meta_init.connectivity.common.rc \
-    meta_init.connectivity.rc \
-    meta_init.modem.rc \
-    meta_init.project.rc \
-    meta_init.rc \
-    multi_init.rc \
     ueventd.mtk.rc \
     ueventd.oplus.rc
 
