@@ -9,6 +9,9 @@ ro.audio.usb.period_us=16000
 # Brand
 Build.BRAND=MTK
 
+# Camera
+oplus.camera.packname=com.oplus.camera
+
 # Display
 ro.opengles.version=196610
 debug.sf.use_phase_offsets_as_durations=1
