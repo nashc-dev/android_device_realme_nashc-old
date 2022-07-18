@@ -5,6 +5,7 @@ ro.vendor.have_aee_feature=1
 ro.camera.sound.forced=0
 ro.audio.silent=0
 ro.audio.usb.period_us=16000
+ro.config.vc_call_vol_steps=7
 
 # Brand
 Build.BRAND=MTK
