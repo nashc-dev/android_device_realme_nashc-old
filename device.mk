@@ -90,7 +90,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
     $(LOCAL_PATH)/configs/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml
 
@@ -113,14 +112,6 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.bluetooth.default \
-    libaudiofoundation.vendor \
-    libbluetooth_audio_session \
-    libalsautils \
-    libnbaio_mono \
-    libtinycompress \
-    libdynproc \
-    libhapticgenerator \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.common-util.vendor \
@@ -132,7 +123,15 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0.vendor \
     android.hardware.audio@6.0-util.vendor \
     android.hardware.audio@7.0-util.vendor \
-    android.hardware.audio@7.0.vendor
+    android.hardware.audio@7.0.vendor \
+    audio.bluetooth.default \
+    libaudiofoundation.vendor \
+    libbluetooth_audio_session \
+    libalsautils \
+    libnbaio_mono \
+    libtinycompress \
+    libdynproc \
+    libhapticgenerator
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
@@ -160,16 +159,15 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio@2.0-impl \
-    android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.bluetooth@1.0.vendor \
-    android.hardware.bluetooth@1.1.vendor
+    android.hardware.bluetooth@1.1.vendor \
+    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio@2.1-impl
 
 # Biometrics
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.oplus \
     android.hardware.biometrics.common-V1-ndk_platform.vendor \
-    android.hardware.biometrics.face-V1-ndk_platform.vendor
+    android.hardware.biometrics.fingerprint@2.3-service.oplus
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -188,21 +186,21 @@ PRODUCT_PACKAGES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
-    libdrm \
-    libdrm.vendor \
     libdrmclearkeyplugin.vendor \
     libmockdrmcryptoplugin.vendor \
     libclearkeycasplugin.vendor
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.2-service \
     android.hardware.graphics.allocator@2.0.vendor \
     android.hardware.graphics.allocator@3.0.vendor \
     android.hardware.graphics.allocator@4.0.vendor \
+    android.hardware.graphics.composer@2.2-service \
     android.hardware.memtrack@1.0-service \
     android.hardware.memtrack@1.0-impl \
     libhwc2onfbadapter.vendor \
+    libdrm.vendor \
+    libdrm \
     disable_configstore
 
 # Doze
@@ -265,8 +263,7 @@ PRODUCT_PACKAGES += \
     libavservices_minijail_vendor \
     libstagefright_softomx_plugin.vendor \
     libsfplugin_ccodec_utils.vendor \
-    libcodec2_soft_common.vendor \
-    android.hardware.media.omx@1.0-service
+    libcodec2_soft_common.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
@@ -293,12 +290,12 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service-multihal.nashc \
     android.hardware.sensors@1.0.vendor \
     android.hardware.sensors@2.0.vendor \
     android.hardware.sensors@2.1.vendor \
     android.hardware.sensors@2.0-ScopedWakelock.vendor \
     android.frameworks.sensorservice@1.0.vendor \
+    android.hardware.sensors@2.0-service-multihal.nashc \
     libsensorndkbridge
 
 # Keymaster
@@ -361,8 +358,8 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@1.0-impl \
-    android.hardware.thermal@2.0.vendor
+    android.hardware.thermal@2.0.vendor \
+    android.hardware.thermal@1.0-impl
 
 # Touch
 PRODUCT_PACKAGES += \
@@ -402,8 +399,6 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service-lazy.nashc \
-    hostapd \
     android.hardware.wifi@1.1.vendor \
     android.hardware.wifi@1.2.vendor \
     android.hardware.wifi@1.3.vendor \
@@ -420,7 +415,9 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.supplicant@1.4.vendor \
     android.hardware.tetheroffload.config@1.0.vendor \
     android.hardware.tetheroffload.control@1.0.vendor \
-    android.hardware.tetheroffload.control@1.1.vendor
+    android.hardware.tetheroffload.control@1.1.vendor \
+    android.hardware.wifi@1.0-service-lazy.nashc \
+    hostapd
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
