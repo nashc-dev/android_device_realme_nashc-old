@@ -53,3 +53,5 @@
 # WiFi
 /(vendor|system/vendor)/bin/hw/android\.hardware\.wifi@[0-9]\.[0-9]-service-lazy\.nashc                                u:object_r:mtk_hal_wifi_exec:s0
 
+# Vibrator
+/vendor/bin/hw/android\.hardware\.vibrator-service\.nashc                                                              u:object_r:hal_vibrator_default_exec:s0
