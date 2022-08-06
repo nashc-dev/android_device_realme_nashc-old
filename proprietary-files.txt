@@ -1,4 +1,4 @@
-# Unpinned blobs from sys_mssi_64_cn_armv82-user 12 SP1A.210812.016 1653634784932 release-keys
+# Unpinned blobs from RMX3085-user 12 SP1A.210812.016 R.GDPR.202207151524 release-keys
 
 # AAL
 vendor/lib/libaal_cust.so
@@ -2054,8 +2054,8 @@ vendor/bin/rttv
 vendor/bin/starter
 vendor/bin/stp_dump3
 vendor/bin/stroke
-vendor/etc/apdb/APDB_MT6785_S01__W2210
-vendor/etc/apdb/APDB_MT6785_S01__W2210_ENUM
+vendor/etc/apdb/APDB_MT6785_S01__W2214
+vendor/etc/apdb/APDB_MT6785_S01__W2214_ENUM
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
