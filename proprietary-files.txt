@@ -2047,7 +2047,6 @@ vendor/bin/factory
 vendor/bin/gsm0710muxd
 vendor/bin/md_monitor
 vendor/bin/md_monitor_ctrl
-vendor/bin/meta_tst
 vendor/bin/mnld
 vendor/bin/mrdump_tool
 vendor/bin/muxreport
