@@ -1051,7 +1051,6 @@ vendor/lib64/libmtkcam_diputils.so
 vendor/lib64/libmtkcam_dpe.so
 vendor/lib64/libmtkcam_exif.so
 vendor/lib64/libmtkcam_fdvt.so
-vendor/lib64/libmtkcam_featurepolicy.so
 vendor/lib64/libmtkcam_featureutils.so
 vendor/lib64/libmtkcam_fwkutils.so
 vendor/lib64/libmtkcam_grallocutils.so
@@ -1128,6 +1127,9 @@ vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
+
+# Camera Feature Policy - from RMX3085EEA_11_C.11
+vendor/lib64/libmtkcam_featurepolicy.so|c539aa55b40a60ac82a9f5791b0e82cc331ec2fa|54a902eb3c3ef3518b806fc0732f0af49f537500
 
 # Camera configs
 odm/etc/camera/tonemap/tonemap/curve_lut_0
