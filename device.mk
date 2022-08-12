@@ -399,7 +399,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.nashc
+    android.hardware.vibrator-service.mediatek
 
 # WiFi
 PRODUCT_PACKAGES += \
@@ -431,7 +431,8 @@ PRODUCT_COPY_FILES += \
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/oplus
+    hardware/oplus \
+    hardware/mediatek
 
 $(call inherit-product, vendor/realme/nashc-ims/nashc-ims-vendor.mk)
 $(call inherit-product, vendor/realme/nashc/nashc-vendor.mk)

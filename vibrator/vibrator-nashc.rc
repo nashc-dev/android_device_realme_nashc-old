@@ -1,4 +1,0 @@
-service vendor.vibrator-nashc /vendor/bin/hw/android.hardware.vibrator-service.nashc
-    class hal
-    user system
-    group system
