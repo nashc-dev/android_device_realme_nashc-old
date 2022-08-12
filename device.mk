@@ -207,10 +207,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OplusDoze
 
-# DT2W
-PRODUCT_PACKAGES += \
-    DT2W-Service-Nashc
-
 # Health
 PRODUCT_PACKAGES += \
    android.hardware.health@2.1-service \
