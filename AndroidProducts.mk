@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nashc.mk
+    $(LOCAL_DIR)/arrow_nashc.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_nashc-user \
-    lineage_nashc-userdebug \
-    lineage_nashc-eng
+    arrow_nashc-user \
+    arrow_nashc-userdebug \
+    arrow_nashc-eng
