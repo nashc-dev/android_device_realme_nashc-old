@@ -1,3 +1,4 @@
 r_dir_file(mtk_hal_audio, vendor_proc_oplus_version)
 get_prop(mtk_hal_audio, system_oplus_audio_prop)
-set_prop(mtk_hal_audio, vendor_audio_tunning_prop)
+set_prop(mtk_hal_audio, system_oplus_audio_prop)
+set_prop(mtk_hal_audio, vendor_audio_tuning_prop)
