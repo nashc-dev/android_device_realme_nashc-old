@@ -20,8 +20,7 @@
 /dev/block/sdc4                                                                                                        u:object_r:oplus_block_device:s0
 
 # Fingerprint
-/dev/jiiov_fp                                                                                                          u:object_r:fingerprintd_device:s0
-/dev/goodix_fp                                                                                                         u:object_r:fingerprintd_device:s0
+/dev/jiiov_fp                                                                                                          u:object_r:fingerprint_device:s0
 /data/vendor/FactoryTestReport(/.*)?                                                                                   u:object_r:factorytestreport_vendor_data_file:s0
 /data/vendor/fingerprint(/.*)?                                                                                         u:object_r:oplus_fingerprint_file:s0
 /data/vendor/optical_fingerprint(/.*)?                                                                                 u:object_r:oplus_fingerprint_file:s0

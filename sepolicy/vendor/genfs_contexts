@@ -14,7 +14,6 @@ genfscon proc /tbatt_pwroff                                                     
 genfscon proc /ui_soc_decimal                                                               u:object_r:vendor_proc_decimal:s0
 genfscon proc /wireless                                                                     u:object_r:vendor_proc_wireless:s0
 genfscon sysfs /class/oplus_chg                                                             u:object_r:vendor_sysfs_usb_supply:s0
-genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6359-pmic/mt6359-rtc/rtc   u:object_r:sysfs_rtc:s0
 genfscon sysfs /devices/virtual/oplus_chg                                                   u:object_r:vendor_sysfs_usb_supply:s0
 
 # Display
