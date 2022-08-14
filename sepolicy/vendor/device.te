@@ -4,9 +4,5 @@ type oplus_charger_device, dev_type, fs_type;
 # Display
 type oplus_display_device, dev_type;
 
-# Fingerprint
-type fingerprintd_device, dev_type;
-
 # Sensors
 type virtual_sensor_device, dev_type;
-
