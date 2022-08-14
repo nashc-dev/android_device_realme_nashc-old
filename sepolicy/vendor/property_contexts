@@ -1,18 +1,13 @@
 # Audio
-audio.tuning.def_path                       u:object_r:vendor_audio_tunning_prop:s0
-persist.vendor.audio.tuning.def_path        u:object_r:vendor_audio_tunning_prop:s0
+persist.vendor.audio.tuning.def_path        u:object_r:vendor_audio_tuning_prop:s0
 
 # Fingerprint
 persist.vendor.fingerprint.     u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.fp.              u:object_r:vendor_fingerprint_prop:s0
-oplus.optical.                  u:object_r:vendor_fingerprint_prop:s0
-vendor.flash.locked             u:object_r:exported_default_prop:s0
+vendor.flash.locked             u:object_r:vendor_fingerprint_prop:s0
 vendor.fingerprint.             u:object_r:vendor_fingerprint_prop:s0
 
 # Camera
 vendor.oplus.camera.               u:object_r:vendor_oplus_prop:s0
-ro.oplus.camera.                   u:object_r:vendor_oplus_prop:s0
-ro.oplus.market.name               u:object_r:vendor_oplus_prop:s0
-ro.oplus.system.camera.            u:object_r:vendor_oplus_prop:s0
 persist.vendor.camera.privapp.list u:object_r:vendor_oplus_prop:s0
 vendor.debug.cameralog.enable      u:object_r:vendor_oplus_prop:s0
