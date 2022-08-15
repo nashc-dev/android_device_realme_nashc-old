@@ -7,6 +7,8 @@ allow mtk_hal_sensors vendor_proc_oplus_sensor_param:file r_file_perms;
 allow mtk_hal_sensors virtual_sensor_device:chr_file r_file_perms;
 
 allow mtk_hal_sensors als_ps_device:chr_file r_file_perms;
+allow mtk_hal_sensors vendor_proc_oplus_sensor_cali:file rw_file_perms;
+allow mtk_hal_sensors vendor_proc_oplus_sensor_cali:dir search;
 
 allow mtk_hal_sensors oplus_block_device:blk_file r_file_perms;
 allow mtk_hal_sensors block_device:dir search;
