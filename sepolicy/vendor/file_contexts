@@ -1,6 +1,6 @@
 # Camera
 /data/vendor/camera_update(/.*)?                                                                                       u:object_r:vendor_camera_update_data_file:s0
-/mnt/vendor/persist/camera(/.*)?                                                                                       u:object_r:vendor_persist_camera_file:s0
+/mnt/vendor/persist/camera(/.*)?                                                                                       u:object_r:persist_camera_file:s0
 /(odm|vendor/odm)/bin/hw/vendor\.oplus\.hardware\.engcamera@1\.0-service                                               u:object_r:mtk_hal_camera_exec:s0
 
 # Charging
