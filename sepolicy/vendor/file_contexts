@@ -18,6 +18,9 @@
 /(odm|vendor/odm)/bin/hw/vendor\.oplus\.hardware\.oplusSensor@1\.0-service                                             u:object_r:mtk_hal_sensors_exec:s0
 /dev/m_virtual_sensor_misc                                                                                             u:object_r:virtual_sensor_device:s0
 /dev/block/sdc4                                                                                                        u:object_r:oplus_block_device:s0
+/dev/block/sdc7                                                                                                        u:object_r:oplus_block_device:s0
+/dev/block/platform/soc/11270000.ufshci/by-name/oplus_custom                                                           u:object_r:oplus_block_device:s0
+/dev/block/platform/bootdevice/by-name/oplus_custom                                                                    u:object_r:oplus_block_device:s0
 
 # Fingerprint
 /dev/jiiov_fp                                                                                                          u:object_r:fingerprint_device:s0
