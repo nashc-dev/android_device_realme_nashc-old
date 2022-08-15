@@ -12,6 +12,7 @@ vendor.oplus.hardware.biometrics.fingerprint::IBiometricsFingerprint          u:
 
 # NFC
 vendor.nxp.nxpnfc::INxpNfc                                                    u:object_r:hal_nfc_hwservice:s0
+vendor.nxp.nxpese::INxpEse                                                    u:object_r:hal_nfc_hwservice:s0
 
 # Orms
 vendor.oplus.hardware.orms.ormsHalService::IOrmsHalService                    u:object_r:hal_orms_oplus_hwservice:s0
