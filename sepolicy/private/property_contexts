@@ -6,6 +6,8 @@ demo.hole                    u:object_r:exported_system_prop:s0
 demo.near                    u:object_r:exported_system_prop:s0
 demo.far                     u:object_r:exported_system_prop:s0
 demo.fb                      u:object_r:exported_system_prop:s0
+debuglog.drv                 u:object_r:exported_system_prop:s0
+debuglog.drv.                u:object_r:exported_system_prop:s0
 ro.oplus.camera.             u:object_r:system_oplus_camera_prop:s0
 ro.oplus.market.name         u:object_r:system_oplus_camera_prop:s0
 ro.oplus.system.camera.      u:object_r:system_oplus_camera_prop:s0
