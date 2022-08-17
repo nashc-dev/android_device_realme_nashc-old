@@ -39,6 +39,9 @@ function blob_fixup {
         vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             ;;
+        vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service)
+            "$PATCHELF" --replace-needed "android.hardware.power-V2-ndk_platform.so" "android.hardware.power-V2-ndk.so" "${2}"
+            ;;
     esac
 }
 
