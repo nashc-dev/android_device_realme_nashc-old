@@ -34,6 +34,11 @@ function blob_fixup {
             xxd -p "${2}" | sed "s/90b0034e88740b9/90b003428028052/g" | xxd -r -p > "${2}".patched
             mv "${2}".patched "${2}"
             ;;
+        vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so)
+            ;&
+        vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
+            ;;
     esac
 }
 
