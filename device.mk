@@ -354,10 +354,6 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0.vendor \
     android.hardware.thermal@1.0-impl
 
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.nashc
-
 # Neural Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.0.vendor \
