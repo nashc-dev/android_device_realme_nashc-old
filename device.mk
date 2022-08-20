@@ -203,10 +203,6 @@ PRODUCT_PACKAGES += \
     libdrm \
     disable_configstore
 
-# Doze
-PRODUCT_PACKAGES += \
-    OplusDoze
-
 # Health
 PRODUCT_PACKAGES += \
    android.hardware.health@2.1-service \
