@@ -53,7 +53,7 @@ public class GameModeSwitch implements OnPreferenceChangeListener {
     }
 
     public static boolean isCurrentlyEnabled(Context context) {
-        return Utils.getFileValueAsBoolean(getFile(), false);
+        return Utils.getFileValue(getFile(), null).substring(0, 1).equals("1");
     }
 
     public static boolean checkNotificationPolicy(Context context) {
