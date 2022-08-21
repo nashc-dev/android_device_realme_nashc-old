@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.mt6785 \
     fstab.mt6785.ramdisk \
+    cabc.rc \
     init.ago.rc \
     init.cgroup.rc \
     init.connectivity.common.rc \

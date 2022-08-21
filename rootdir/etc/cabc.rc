@@ -1,0 +1,20 @@
+on boot
+    # CABC
+    chown system system /sys/kernel/oplus_display/LCM_CABC
+    chmod 0644 /sys/kernel/oplus_display/LCM_CABC
+
+    # CABC off
+on property:persist.cabc_profile=0
+    write /sys/kernel/oplus_display/LCM_CABC 0
+
+    # CABC on
+on property:persist.cabc_profile=1
+    write /sys/kernel/oplus_display/LCM_CABC 1
+
+    # CABC balanced
+on property:persist.cabc_profile=2
+    write /sys/kernel/oplus_display/LCM_CABC 2
+
+    # CABC aggressive
+on property:persist.cabc_profile=3
+    write /sys/kernel/oplus_display/LCM_CABC 3
