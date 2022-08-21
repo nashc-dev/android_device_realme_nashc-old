@@ -9,6 +9,7 @@ system_public_prop(system_fingerprint_prop)
 
 # Parts
 system_restricted_prop(system_perf_prop)
+system_restricted_prop(system_cabc_prop)
 
 # Version
 system_vendor_config_prop(system_oplus_project_prop)

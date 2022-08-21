@@ -1,3 +1,4 @@
 allow system_app sysfs_batteryinfo:dir search;
 
 set_prop(system_app, system_perf_prop)
+set_prop(system_app, system_cabc_prop)
