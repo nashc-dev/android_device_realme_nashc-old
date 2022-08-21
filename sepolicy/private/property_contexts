@@ -21,6 +21,9 @@ oplus.optical.        u:object_r:system_fingerprint_prop:s0
 sys.oplus.mm.         u:object_r:system_oplus_audio_prop:s0
 audio.tuning.def_path u:object_r:system_oplus_audio_prop:s0
 
+# Parts
+perf_profile          u:object_r:system_perf_prop:s0 
+
 # Version
 ro.separate.soft      u:object_r:system_oplus_project_prop:s0
 ro.oplus.version.     u:object_r:system_oplus_project_prop:s0
