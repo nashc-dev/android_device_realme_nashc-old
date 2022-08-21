@@ -38,3 +38,6 @@ genfscon proc /oplusVersion                         u:object_r:vendor_proc_oplus
 # Performance
 genfscon proc /sys/vm/dirty_writeback_centisecs     u:object_r:proc_vm_dirty:s0
 genfscon proc /sys/kernel/sched_stune_task_threshold u:object_r:proc_sched_stune:s0 
+
+# Vibrator
+genfscon sysfs /kernel/thunderquake_engine/level    u:object_r:sysfs_vibrator:s0
