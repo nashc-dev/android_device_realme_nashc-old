@@ -328,6 +328,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# RealmeParts
+PRODUCT_PACKAGES += \
+    RealmeParts
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek \
