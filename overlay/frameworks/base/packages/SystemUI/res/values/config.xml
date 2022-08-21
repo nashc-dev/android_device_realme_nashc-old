@@ -43,4 +43,7 @@
     <!-- The indication margin of keyguard -->
     <dimen name="keyguard_indication_margin_bottom">4dp</dimen>
 
+    <!-- Use framework FOD dimming instead of kernel dimming -->
+    <bool name="config_udfpsFrameworkDimming">true</bool>
+
 </resources>
