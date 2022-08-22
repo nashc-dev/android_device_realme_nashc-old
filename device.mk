@@ -34,14 +34,13 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_DENSITY := 480
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-arrow
-
 PRODUCT_PACKAGES += \
-    WifiOverlay \
-    TetheringConfigOverlay \
-    CarrierConfigOverlay
+    FrameworksResOverlayNashc \
+    SystemUIOverlayNashc \
+    TelephonyOverlayNashc \
+    WifiOverlayNashc \
+    TetheringConfigOverlayNashc \
+    CarrierConfigOverlayNashc
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
