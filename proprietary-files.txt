@@ -38,13 +38,11 @@ odm/lib/libnxpspeech_V15021.so
 odm/lib64/libawinicsmartpaparse.so
 odm/lib64/libnxprecord_V15021.so
 odm/lib64/libnxpspeech_V15021.so
-vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/bin/atci_service
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
 vendor/bin/mt6660_calibration
 vendor/bin/rt5512_calibration
-vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/etc/init/atci_service.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
