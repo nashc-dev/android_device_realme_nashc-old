@@ -41,7 +41,10 @@
     <dimen name="status_bar_padding_top">24.0px</dimen>
 
     <!-- The indication margin of keyguard -->
-    <dimen name="keyguard_indication_margin_bottom">4dp</dimen>
+    <dimen name="keyguard_indication_margin_bottom">95dp</dimen>
+
+    <!-- The text size for battery level -->
+    <dimen name="battery_level_text_size">05sp</dimen>
 
     <!-- Use framework FOD dimming instead of kernel dimming -->
     <bool name="config_udfpsFrameworkDimming">true</bool>
