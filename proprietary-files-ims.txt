@@ -1,3 +1,4 @@
+# IMS Frameworks
 -framework/mediatek-common.jar
 -framework/mediatek-framework.jar
 framework/mediatek-gwsd.jar
@@ -10,3 +11,6 @@ framework/mediatek-ims-legacy.jar
 -framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
 framework/mediatek-wfo-legacy.jar
+
+# IMS Service
+-priv-app/ImsService/ImsService.apk|a9f4e7a0d5750d63e67ba778b7c1d8126fa21f85
