@@ -1,0 +1,1 @@
+get_prop(hal_light_default, vendor_persist_light_prop)
