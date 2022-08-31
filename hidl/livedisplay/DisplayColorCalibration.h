@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-#ifndef VENDOR_LINEAGE_LIVEDISPLAY_V2_1_DISPLAYCOLORCALIBRATION_H
-#define VENDOR_LINEAGE_LIVEDISPLAY_V2_1_DISPLAYCOLORCALIBRATION_H
+#pragma once
 
 #include <vendor/lineage/livedisplay/2.0/IDisplayColorCalibration.h>
 
@@ -45,5 +44,3 @@ class DisplayColorCalibration : public IDisplayColorCalibration {
 }  // namespace livedisplay
 }  // namespace lineage
 }  // namespace vendor
-
-#endif  // VENDOR_LINEAGE_LIVEDISPLAY_V2_1_DISPLAYCOLORCALIBRATION_H
