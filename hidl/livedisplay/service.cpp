@@ -21,20 +21,29 @@
 #include <hidl/HidlTransportSupport.h>
 
 #include "DisplayColorCalibration.h"
+#include "AntiFlicker.h"
 
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 
 using ::vendor::lineage::livedisplay::V2_1::IDisplayColorCalibration;
+using ::vendor::lineage::livedisplay::V2_1::IAntiFlicker;
 using ::vendor::lineage::livedisplay::V2_1::implementation::DisplayColorCalibration;
+using ::vendor::lineage::livedisplay::V2_1::implementation::AntiFlicker;
 
 int main() {
     android::sp<IDisplayColorCalibration> dcc = new DisplayColorCalibration();
+    android::sp<IAntiFlicker> af = new AntiFlicker();
 
     configureRpcThreadpool(1, true /*callerWillJoin*/);
 
     if (dcc->registerAsService() != android::OK) {
         LOG(ERROR) << "Cannot register display color calibration HAL service.";
+        return 1;
+    }
+
+    if (af->registerAsService() != android::OK) {
+        LOG(ERROR) << "Cannot register anti flicker HAL service.";
         return 1;
     }
 

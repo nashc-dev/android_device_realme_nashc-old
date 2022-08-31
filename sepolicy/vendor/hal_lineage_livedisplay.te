@@ -8,3 +8,5 @@ init_daemon_domain(hal_lineage_livedisplay_nashc)
 vndbinder_use(hal_lineage_livedisplay_nashc)
 
 allow hal_lineage_livedisplay_default vendor_sysfs_mtk_dispmgr_rgb:file w_file_perms;
+allow hal_lineage_livedisplay_nashc vendor_sysfs_graphics:file rw_file_perms;
+allow hal_lineage_livedisplay_nashc vendor_sysfs_graphics:dir search;

@@ -32,6 +32,7 @@ cc_binary {
 
     srcs: [
 	"DisplayColorCalibration.cpp",
+        "AntiFlicker.cpp",
         "service.cpp",
     ]
 }
