@@ -13,9 +13,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.lineage.livedisplay@2.0-service-nashc",
-    init_rc: ["vendor.lineage.livedisplay@2.0-service-nashc.rc"],
-    vintf_fragments: ["vendor.lineage.livedisplay@2.0-service-nashc.xml"],
+    name: "vendor.lineage.livedisplay@2.1-service-nashc",
+    init_rc: ["vendor.lineage.livedisplay@2.1-service-nashc.rc"],
+    vintf_fragments: ["vendor.lineage.livedisplay@2.1-service-nashc.xml"],
     vendor: true,
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
@@ -27,6 +27,7 @@ cc_binary {
         "libhidltransport",
         "libutils",
         "vendor.lineage.livedisplay@2.0",
+        "vendor.lineage.livedisplay@2.1"
     ],
 
     srcs: [

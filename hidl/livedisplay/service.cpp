@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.livedisplay@2.0-service-nashc"
+#define LOG_TAG "vendor.lineage.livedisplay@2.1-service-nashc"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
@@ -22,47 +22,26 @@
 
 #include "DisplayColorCalibration.h"
 
-using android::OK;
-using android::sp;
-using android::status_t;
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 
-using ::vendor::lineage::livedisplay::V2_0::IDisplayColorCalibration;
-using ::vendor::lineage::livedisplay::V2_0::nashc::DisplayColorCalibration;
+using ::vendor::lineage::livedisplay::V2_1::IDisplayColorCalibration;
+using ::vendor::lineage::livedisplay::V2_1::implementation::DisplayColorCalibration;
 
 int main() {
-    // HALs
-    sp<DisplayColorCalibration> dcc;
-
-    status_t status = OK;
-
-    LOG(INFO) << "LiveDisplay HAL service is starting.";
-
-    dcc = new DisplayColorCalibration();
-    if (dcc == nullptr) {
-        LOG(ERROR) << "Can not create an instance of LiveDisplay HAL DisplayColorCalibration Iface,"
-                   << " exiting.";
-        goto shutdown;
-    }
+    android::sp<IDisplayColorCalibration> dcc = new DisplayColorCalibration();
 
     configureRpcThreadpool(1, true /*callerWillJoin*/);
 
-    if (dcc->isSupported()) {
-        status = dcc->registerAsService();
-        if (status != OK) {
-            LOG(ERROR) << "Could not register service for LiveDisplay HAL DisplayColorCalibration"
-                       << " Iface (" << status << ")";
-            goto shutdown;
-        }
+    if (dcc->registerAsService() != android::OK) {
+        LOG(ERROR) << "Cannot register display color calibration HAL service.";
+        return 1;
     }
 
     LOG(INFO) << "LiveDisplay HAL service is ready.";
-    joinRpcThreadpool();
-    // Should not pass this line
 
-shutdown:
-    // In normal operation, we don't expect the thread pool to shutdown
-    LOG(ERROR) << "LiveDisplay HAL service is shutting down.";
+    joinRpcThreadpool();
+
+    LOG(ERROR) << "LiveDisplay HAL service failed to join thread pool.";
     return 1;
 }

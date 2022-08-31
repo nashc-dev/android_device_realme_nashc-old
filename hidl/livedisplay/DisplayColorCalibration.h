@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-#ifndef VENDOR_LINEAGE_LIVEDISPLAY_V2_0_DISPLAYCOLORCALIBRATION_H
-#define VENDOR_LINEAGE_LIVEDISPLAY_V2_0_DISPLAYCOLORCALIBRATION_H
+#ifndef VENDOR_LINEAGE_LIVEDISPLAY_V2_1_DISPLAYCOLORCALIBRATION_H
+#define VENDOR_LINEAGE_LIVEDISPLAY_V2_1_DISPLAYCOLORCALIBRATION_H
 
 #include <vendor/lineage/livedisplay/2.0/IDisplayColorCalibration.h>
 
 namespace vendor {
 namespace lineage {
 namespace livedisplay {
-namespace V2_0 {
+namespace V2_1 {
 namespace nashc {
 
 using ::android::hardware::hidl_vec;
@@ -33,9 +33,7 @@ using ::android::hardware::Void;
 
 class DisplayColorCalibration : public IDisplayColorCalibration {
   public:
-    bool isSupported();
-
-    // Methods from ::vendor::lineage::livedisplay::V2_0::IDisplayColorCalibration follow.
+    // Methods from ::vendor::lineage::livedisplay::V2_1::IDisplayColorCalibration follow.
     Return<int32_t> getMaxValue() override;
     Return<int32_t> getMinValue() override;
     Return<void> getCalibration(getCalibration_cb _hidl_cb) override;
@@ -43,9 +41,9 @@ class DisplayColorCalibration : public IDisplayColorCalibration {
 };
 
 }  // namespace nashc
-}  // namespace V2_0
+}  // namespace V2_1
 }  // namespace livedisplay
 }  // namespace lineage
 }  // namespace vendor
 
-#endif  // VENDOR_LINEAGE_LIVEDISPLAY_V2_0_DISPLAYCOLORCALIBRATION_H
+#endif  // VENDOR_LINEAGE_LIVEDISPLAY_V2_1_DISPLAYCOLORCALIBRATION_H

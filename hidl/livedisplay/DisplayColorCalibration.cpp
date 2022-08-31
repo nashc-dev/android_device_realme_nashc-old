@@ -29,16 +29,10 @@ using android::base::WriteStringToFile;
 namespace vendor {
 namespace lineage {
 namespace livedisplay {
-namespace V2_0 {
-namespace nashc {
+namespace V2_1 {
+namespace implementation {
 
-bool DisplayColorCalibration::isSupported() {
-    std::fstream rgb(FILE_RGB, rgb.in | rgb.out);
-
-    return rgb.good();
-}
-
-// Methods from ::vendor::lineage::livedisplay::V2_0::IDisplayColorCalibration follow.
+// Methods from ::vendor::lineage::livedisplay::V2_1::IDisplayColorCalibration follow.
 Return<int32_t> DisplayColorCalibration::getMaxValue() {
     return 2000;
 }
@@ -72,8 +66,8 @@ Return<bool> DisplayColorCalibration::setCalibration(const hidl_vec<int32_t>& rg
     return WriteStringToFile(Trim(contents), FILE_RGB, true);
 }
 
-}  // namespace nashc
-}  // namespace V2_0
+}  // namespace implementation
+}  // namespace V2_1
 }  // namespace livedisplay
 }  // namespace lineage
 }  // namespace vendor

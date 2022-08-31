@@ -253,7 +253,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-nashc
+    vendor.lineage.livedisplay@2.1-service-nashc
 
 # Media
 PRODUCT_PACKAGES += \
