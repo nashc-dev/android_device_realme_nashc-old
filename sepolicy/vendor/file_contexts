@@ -9,6 +9,7 @@
 
 # Display
 /dev/oplus_display                                                                                                     u:object_r:oplus_display_device:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-nashc                                         u:object_r:hal_lineage_livedisplay_nashc_exec:s0
 
 # Light
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.nashc                                                 u:object_r:hal_light_default_exec:s0
