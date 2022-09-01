@@ -19,3 +19,7 @@ on init
     symlink /dev/block/mapper/pl_b /dev/block/by-name/preloader_raw_b
     symlink /dev/block/mapper/pl_a /dev/block/platform/bootdevice/by-name/preloader_raw_a
     symlink /dev/block/mapper/pl_b /dev/block/platform/bootdevice/by-name/preloader_raw_b
+
+on property:sys.boot_completed=1
+    # OTG
+    write /sys/class/power_supply/usb/otg_switch 1
