@@ -18,7 +18,6 @@ type vendor_firmware_file, vendor_file_type, file_type;
 
 # Display
 type vendor_sysfs_graphics, fs_type, sysfs_type;
-type vendor_sysfs_mtk_dispmgr_rgb, fs_type, sysfs_type;
 type vendor_proc_display, fs_type, proc_type;
 
 # Fingerprint
