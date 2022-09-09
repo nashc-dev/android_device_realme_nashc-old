@@ -47,7 +47,7 @@ public class TiltSensor implements SensorEventListener {
     public TiltSensor(Context context) {
         mContext = context;
         mSensorManager = mContext.getSystemService(SensorManager.class);
-        mSensor = DozeUtils.getSensor(mSensorManager, "android.sensor.tilt_detector");
+        mSensor = DozeUtils.getSensor(mSensorManager, "android.sensor.pickup_detect");
         mExecutorService = Executors.newSingleThreadExecutor();
     }
 
