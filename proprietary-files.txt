@@ -56,6 +56,7 @@ vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
 vendor/lib/libadpcmdec_mtk.so
 vendor/lib/libakm.so
+vendor/lib/libaudio_engineer_test.so
 vendor/lib/libaudio_param_parser-vnd.so
 vendor/lib/libaudiocompensationfilter_vendor.so
 vendor/lib/libaudiocompensationfilterc.so
@@ -67,7 +68,6 @@ vendor/lib/libaudiofmtconv.so
 vendor/lib/libaudioloudc.so
 vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiotoolkit_vendor.so
-vendor/lib/libaudio_engineer_test.so
 vendor/lib/libaurisysdemo.so
 vendor/lib/libbessound_hd_mtk_vendor.so
 vendor/lib/libblisrc32_vendor.so
@@ -101,6 +101,7 @@ vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/lib_bsscore.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
+vendor/lib64/libaudio_engineer_test.so
 vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
 vendor/lib64/libaudiocompensationfilterc.so
@@ -112,7 +113,6 @@ vendor/lib64/libaudiofmtconv.so
 vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiotoolkit_vendor.so
-vendor/lib64/libaudio_engineer_test.so
 vendor/lib64/libaurisysdemo.so
 vendor/lib64/libbessound_hd_mtk_vendor.so
 vendor/lib64/libblisrc32_vendor.so
@@ -1450,13 +1450,13 @@ vendor/firmware/soc1_0_ram_wifi_2a_1_hdr.bin
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
-odm/lib/anc.capacitive.hal.so
-odm/lib/anc.hal.so
 odm/lib/hw/fingerprint.goodix_G2.default.so
 odm/lib/hw/fingerprint.goodix_G3.default.so
 odm/lib/hw/fingerprint.goodix_G5.default.so
 odm/lib/hw/fingerprint.goodix_G6.default.so
 odm/lib/hw/fingerprint.goodix_G7.default.so
+odm/lib/anc.capacitive.hal.so
+odm/lib/anc.hal.so
 odm/lib/libgf_hal_G2.so
 odm/lib/libgf_hal_G3.so
 odm/lib/libgf_hal_G5.so
@@ -1464,13 +1464,13 @@ odm/lib/libgf_hal_G6.so
 odm/lib/libgf_hal_G7.so
 odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
 odm/lib/vendor.oplus.hardware.commondcs@1.0.so
-odm/lib64/anc.capacitive.hal.so
-odm/lib64/anc.hal.so
 odm/lib64/hw/fingerprint.goodix_G2.default.so
 odm/lib64/hw/fingerprint.goodix_G3.default.so
 odm/lib64/hw/fingerprint.goodix_G5.default.so
 odm/lib64/hw/fingerprint.goodix_G6.default.so
 odm/lib64/hw/fingerprint.goodix_G7.default.so
+odm/lib64/anc.capacitive.hal.so
+odm/lib64/anc.hal.so
 odm/lib64/libegis_hal.so
 odm/lib64/libgf_hal_G2.so
 odm/lib64/libgf_hal_G3.so
