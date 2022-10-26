@@ -1,0 +1,32 @@
+cc_library_static {
+    name: "android.hardware.vibrator-service-impl.nashc",
+    vendor_available: true,
+    host_supported: true,
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "android.hardware.vibrator-V2-ndk",
+    ],
+    export_include_dirs: ["include"],
+    srcs: [
+        "Vibrator.cpp",
+        "VibratorUtils.cpp",
+    ],
+}
+
+cc_binary {
+    name: "android.hardware.vibrator-service.nashc",
+    relative_install_path: "hw",
+    init_rc: ["vibrator-nashc.rc"],
+    vintf_fragments: ["android.hardware.vibrator.nashc.xml"],
+    vendor: true,
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "android.hardware.vibrator-V2-ndk",
+    ],
+    static_libs: [
+        "android.hardware.vibrator-service-impl.nashc",
+    ],
+    srcs: ["main.cpp"],
+}
