@@ -1717,6 +1717,7 @@ lib64/libvsim-adaptor-client.so
 lib64/libvt_avsync.so
 odm/lib/vendor.oplus.hardware.ims@1.0.so
 odm/lib64/vendor.oplus.hardware.ims@1.0.so
+-priv-app/ImsService/ImsService.apk
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
@@ -1769,9 +1770,6 @@ vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
-
-# IMS-Service
--priv-app/ImsService/ImsService.apk|a9f4e7a0d5750d63e67ba778b7c1d8126fa21f85
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service.trustonic
