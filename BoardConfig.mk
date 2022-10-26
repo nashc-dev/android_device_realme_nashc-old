@@ -150,9 +150,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 BOARD_USES_METADATA_PARTITION := true
 BOARD_ROOT_EXTRA_FOLDERS += metadata
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
-
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 

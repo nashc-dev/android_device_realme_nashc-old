@@ -1,0 +1,14 @@
+cc_library_shared {
+    name: "android.hardware.power-service-mediatek",
+    vintf_fragments: ["power-mtk.xml"],
+    compile_multilib: "64",
+    vendor: true,
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "android.hardware.power-V2-ndk",
+    ],
+    srcs: [
+        "Power.cpp"
+    ],
+}
