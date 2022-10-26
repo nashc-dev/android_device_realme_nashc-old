@@ -431,7 +431,6 @@ PRODUCT_COPY_FILES += \
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/oplus \
     hardware/mediatek
 
 $(call inherit-product, vendor/realme/nashc-ims/nashc-ims-vendor.mk)
