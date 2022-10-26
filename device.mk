@@ -37,7 +37,6 @@ TARGET_SCREEN_DENSITY := 480
 PRODUCT_PACKAGES += \
     FrameworksResOverlayNashc \
     SystemUIOverlayNashc \
-    SettingsOverlayNashc \
     TelephonyOverlayNashc \
     WifiOverlayNashc \
     TetheringConfigOverlayNashc \
