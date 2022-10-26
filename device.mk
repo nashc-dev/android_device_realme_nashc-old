@@ -435,5 +435,4 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/oplus \
     hardware/mediatek
 
-$(call inherit-product, vendor/realme/nashc-ims/nashc-ims-vendor.mk)
 $(call inherit-product, vendor/realme/nashc/nashc-vendor.mk)
