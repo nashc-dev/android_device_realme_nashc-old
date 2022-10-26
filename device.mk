@@ -432,5 +432,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-$(call inherit-product, vendor/realme/nashc-ims/nashc-ims-vendor.mk)
 $(call inherit-product, vendor/realme/nashc/nashc-vendor.mk)
