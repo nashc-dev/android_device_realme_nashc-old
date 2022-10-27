@@ -1,4 +1,4 @@
-# Unpinned blobs from RMX3085-user 12 SP1A.210812.016 R.GDPR.202207151524 release-keys
+# Unpinned blobs from RMX3085-user 12 SP1A.210812.016 R.GDPR.202209241622 release-keys
 
 # AAL
 vendor/lib/libaal_cust.so
