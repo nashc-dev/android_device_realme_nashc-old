@@ -76,5 +76,3 @@ odm                              /odm           ext4   ro       wait,logical,fir
 
 # ZRAM
 /dev/block/zram0                none               swap defaults                                                 zramsize=55%,max_comp_streams=8,zram_backingdev_size=512M
-
-
